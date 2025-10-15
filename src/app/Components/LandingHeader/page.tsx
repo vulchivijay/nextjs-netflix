@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import Logo from "./../../../assets/images/netflix-logo.png"
+import Logo from "./../../../../public/assets/images/netflix-logo.png"
 
 export default function LandingHeader() {
   return (

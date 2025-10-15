@@ -1,3 +1,8 @@
-export default function Button({ children, props }) {
-  return <button className="bg-red-700 text-white text-nowrap px-4 py-1 rounded-xs hover:bg-red-900" {...props}>{children}</button>
+export default function Button({ children, textSize, btnClick }) {
+  const textS = textSize ? textSize : 'text-sm'
+  return (<button
+    className={`${textS} bg-red-700 text-white text-nowrap px-4 py-2 rounded-xs hover:bg-red-900`}
+    onClick={btnClick}>
+    {children}
+  </button>)
 }
