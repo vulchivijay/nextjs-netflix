@@ -1,5 +1,6 @@
-export default function MoreReasonsToJoin() {
+import style from "./../../page.module.css";
 
+export default function MoreReasonsToJoin() {
   const Reasons = [
     {
       id: 1,
@@ -21,16 +22,15 @@ export default function MoreReasonsToJoin() {
       title: 'Create profiles for kids',
       description: 'Send kids on adventures with their favorite characters in a space made just for them - free with your membership.',
     }
-  ]
-
+  ];
   return (
     <div className="max-w-6xl m-auto my-6">
-      <h2 className="text-xl font-semibold py-4">More reasons to join</h2>
+      <h2 className="text-xl font-semibold py-6">More reasons to join</h2>
       <div className="flex items-top justify-between gap-4">
         {Reasons.map(reason => (
-          <div key={reason.id} className="flex-1 p-4 bg-white text-black rounded-xl shadow-2xl">
+          <div key={reason.id} className={`${style.reasonscard} flex-1 p-4 rounded-xl shadow-2xl`}>
             <h3 className="text-xl/7 font-semibold">{reason.title}</h3>
-            <p className="text-sm py-2 text-gray-500">{reason.description}</p>
+            <p className="text-sm py-2 text-gray-300">{reason.description}</p>
           </div>
         ))}
       </div>

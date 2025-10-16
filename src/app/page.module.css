@@ -20,3 +20,7 @@
 .scrollx::-webkit-scrollbar {
   display: none;
 }
+.reasonscard {
+  background: #1A2145;
+  background: linear-gradient(180deg, rgba(26, 33, 69, 1) 0%, rgba(30, 21, 41, 1) 50%);
+}
