@@ -30,27 +30,26 @@ export default function TrendingNow() {
   }, []);
 
   return (
-    <div className="max-w-6xl mx-auto my-6">
-      <h2 className="text-xl font-semibold py-6">Trending now</h2>
-      <div
-        className={`${style.scrollx} flex overflow-x-auto gap-2`}
-        ref={cardsRef}
-      >
-        {trendingItems.map(({ id, image, alt }) => (
-          <div
-            key={id}
-            className="min-w-[180px] bg-black rounded overflow-hidden aspect-[9/13]"
-          >
-            <Image
-              src={image}
-              alt={`Trending ${alt}`}
-              width={180}
-              height={260}
-              className="w-full h-auto object-cover"
-            />
-          </div>
-        ))}
+    <section className="bg-black">
+      <div className="max-w-6xl mx-auto">
+        <h2 className="text-xl font-semibold pb-5">Trending now</h2>
+        <div className={`${style.scrollx} flex overflow-x-auto gap-2 pb-5`}
+          ref={cardsRef}
+        >
+          {trendingItems.map(({ id, image, alt }) => (
+            <div key={id}
+              className="min-w-[180px] bg-black rounded overflow-hidden aspect-[9/13]"
+            >
+              <Image src={image}
+                alt={`Trending ${alt}`}
+                width={180}
+                height={260}
+                className="w-full h-auto object-cover"
+              />
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
+    </section>
   );
 }

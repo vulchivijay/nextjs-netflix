@@ -1,8 +1,22 @@
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 0;
+	background-color: #F5F5F5;
+}
+::-webkit-scrollbar {
+	width: 6px;
+	background-color: #F5F5F5;
+}
+::-webkit-scrollbar-thumb {
+	border-radius: 0;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
 .netflixbg {
   position: relative;
   z-index: 0;
   background-image: url('./../../public/assets/images/bg.jpg');
-  background-size: 100%;
+  background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: top;
   background-color: #000;
@@ -23,4 +37,23 @@
 .reasonscard {
   background: #1A2145;
   background: linear-gradient(180deg, rgba(26, 33, 69, 1) 0%, rgba(30, 21, 41, 1) 50%);
+}
+.ribbon {
+  position: relative;
+  z-index: 0;
+  background: #000;
+  background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
+}
+.ribbon::before {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  top: 5px;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 5px);
+  background: #000;
+}
+.ribbon .box {
+  background: #1b1f40;
 }

@@ -1,8 +1,9 @@
 import Footer from "./Components/Footer";
-import FrequentlyAskedQuestions from "./Components/FrequentlyAskedQuestions/page";
-import HeroSection from "./Components/HeroSection/page";
-import LandingHeader from "./Components/LandingHeader/page";
-import MoreReasonsToJoin from "./Components/MoreReasonsToJoin/page";
+import FrequentlyAskedQuestions from "./Components/Faq/page";
+import Hero from "./Components/Hero/page";
+import LandingHeader from "./Components/HeroHeader/page";
+import MoreReasonsToJoin from "./Components/More/page";
+import Ribbon from "./Components/Ribbon/page";
 import Subscribe from "./Components/Subscribe/page";
 import TrendingNow from "./Components/TrendingNow/page";
 import style from "./page.module.css";
@@ -12,7 +13,8 @@ export default function Home() {
     <div className={`${style.netflixbg} font-sans min-h-screen`}>
       <LandingHeader />
       <main className="relative z-10 text-white">
-        <HeroSection />
+        <Hero />
+        <Ribbon />
         <TrendingNow />
         <MoreReasonsToJoin />
         <FrequentlyAskedQuestions />
