@@ -4,6 +4,7 @@
 	background-color: #F5F5F5;
 }
 ::-webkit-scrollbar {
+  max-height: 6px;
 	width: 6px;
 	background-color: #F5F5F5;
 }
@@ -31,8 +32,12 @@
   height: 100%;
   background-color: rgba(0,0,0,.6);
 }
-.scrollx::-webkit-scrollbar {
-  display: none;
+.toprated {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  color: #000;
 }
 .reasonscard {
   background: #1A2145;
