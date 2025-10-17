@@ -2,6 +2,8 @@
 
 import { MouseEvent } from 'react';
 import Button from "../Button/page";
+import ArrowRight from "./../../../../public/assets/arrow-right.svg";
+import Image from 'next/image';
 
 export default function Subscribe() {
 
@@ -13,9 +15,10 @@ export default function Subscribe() {
     <div className="bg-transparent text-center py-10">
       <p className="text-md pb-4">Ready to watch? Enter your mail to create or restart your membership.</p>
       <div className="max-w-md m-auto flex items-center justify-between gap-2">
-        <input type="email" placeholder="Enter your mail address" className="w-full bg-black text-white px-2 py-2 rounded-sm border-1 border-white" required />
-        <Button textSize="text-xl" btnClick={handleGetStarted}>
-          Get Started
+        <input type="email" placeholder="Enter your mail address" className="w-full bg-white text-black px-2 py-2 rounded-sm" required />
+        <Button textSize="flex items-center text-xl font-semibold cursor-pointer" btnClick={handleGetStarted}>
+          <span>Get Started</span>
+          <Image src={ArrowRight} width={20} height={20} alt="arrow right" className="ml-1 mr-4" />
         </Button>
       </div>
     </div>
