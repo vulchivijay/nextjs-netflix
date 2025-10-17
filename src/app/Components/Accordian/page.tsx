@@ -19,7 +19,7 @@ export default function AccordionItem({
       aria-expanded={isOpen}
     >
       <span>{title}</span>
-      <Image src={PlusIcon} width={25} height={25} alt="plus" />
+      <Image src={PlusIcon} width={25} height={25} alt="plus" className={`${isOpen ? ' rotate-45 ' : ' rotate-0 '} transition-all`} />
     </button>
     {isOpen && <div className="bg-gray-800 text-white px-4 py-6">{content}</div>}
   </div>)

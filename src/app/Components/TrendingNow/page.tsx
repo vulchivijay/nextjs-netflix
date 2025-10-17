@@ -32,14 +32,14 @@ export default function TrendingNow() {
     <section className="bg-black">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-xl font-semibold pb-5">Trending now</h2>
-        <div className="flex overflow-x-auto gap-2 pb-5"
+        <div className="flex overflow-x-auto gap-8 pb-5"
           ref={cardsRef}
         >
           {trendingItems.map(({ id, image, alt }) => (
             <div key={id}
-              className="relative z-0 min-w-[180px] bg-black rounded overflow-hidden aspect-[9/13] cursor-pointer"
+              className="relative z-0 min-w-[180px] bg-black rounded aspect-[9/13] cursor-pointer"
             >
-              <span className="absolute z-10 left-0 bottom-0 text-6xl font-semibold color-black">{id}</span>
+              <span className={`${id === 1 ? ' -inset-x-0 ' : ' -inset-x-5 '} absolute z-10 bottom-5 text-6xl font-semibold color-black`}>{id}</span>
               <Image src={image}
                 alt={`Trending ${alt}`}
                 width={180}

@@ -37,12 +37,12 @@ export default function MoreReasonsToJoin() {
           {reasons.map(({ id, title, description, image }) => (
             <div
               key={id}
-              className={`${style.reasonscard} text-white p-6 rounded-xl shadow-lg transition hover:shadow-2xl`}
+              className={`${style.reasonscard} text-white px-6 pt-6 pb-3 rounded-xl shadow-lg transition hover:shadow-2xl`}
             >
               <h3 className="text-lg font-semibold mb-2">{title}</h3>
               <p className="text-sm text-gray-300">{description}</p>
               <div className="flex justify-end mt-10">
-                <Image src={image} width={75} height={75} alt={title} />
+                <Image src={image} width={60} height={60} alt={title} />
               </div>
             </div>
           ))}
