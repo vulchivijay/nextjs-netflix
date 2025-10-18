@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import { useEffect, useRef } from 'react';
 
-const trendingItems = Array.from({ length: 10 }, (_, i) => ({
+const trendingItems = Array.from({ length: 20 }, (_, i) => ({
   id: i + 1,
   image: `/assets/images/trending/${i + 1}.webp`,
   alt: `${i + 1}`,
