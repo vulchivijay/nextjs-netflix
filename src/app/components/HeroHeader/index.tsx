@@ -2,12 +2,13 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import Logo from '../../../../public/assets/images/netflix-logo.png';
 
 export default function LandingHeader() {
   const [open, setOpen] = useState(false);
+  const { user, setUser } = useAuthState();
 
   return (
     <header>
@@ -22,7 +23,13 @@ export default function LandingHeader() {
             <option value="0">English</option>
             <option value="1">Hindi</option>
           </select>
-          <Link href="/login" className="bg-red-700 px-4 py-1 rounded-sm hover:bg-red-900">Sign In</Link>
+          {user ? (
+            <>
+              <button onClick={async () => { await fetch('/api/auth/logout', { method: 'POST' }); setUser(null); }} className="bg-gray-700 px-4 py-1 rounded-sm">Logout</button>
+            </>
+          ) : (
+            <Link href="/login" className="bg-red-700 px-4 py-1 rounded-sm hover:bg-red-900">Sign In</Link>
+          )}
         </nav>
 
         {/* Mobile toggle */}
@@ -35,7 +42,11 @@ export default function LandingHeader() {
         {/* Mobile nav panel */}
         {open && (
           <div className="absolute right-4 top-16 bg-black rounded shadow-md p-4 z-20 md:hidden">
-            <Link href="/login" className="block text-white py-2">Sign in</Link>
+            {user ? (
+              <button onClick={async () => { await fetch('/api/auth/logout', { method: 'POST' }); setUser(null); }} className="block text-white py-2">Logout</button>
+            ) : (
+              <Link href="/login" className="block text-white py-2">Sign in</Link>
+            )}
             <select className="bg-black text-white border rounded-sm px-3 py-1 mt-2 w-full">
               <option value="0">English</option>
               <option value="1">Hindi</option>
@@ -45,4 +56,22 @@ export default function LandingHeader() {
       </div>
     </header>
   );
+}
+
+function useAuthState() {
+  const [user, setUser] = useState<unknown | null>(null);
+  useEffect(() => {
+    let mounted = true;
+    (async () => {
+      try {
+        const res = await fetch('/api/auth/me');
+        const json = await res.json();
+        if (mounted && json?.ok) setUser(json.user);
+      } catch {
+        // ignore
+      }
+    })();
+    return () => { mounted = false; };
+  }, []);
+  return { user, setUser };
 }
