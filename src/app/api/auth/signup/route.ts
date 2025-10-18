@@ -1,7 +1,7 @@
-import clientPromise from '../../../../lib/mongodb';
+import getClientPromise from '../../../../lib/mongodb';
 import { NextResponse } from 'next/server';
 import bcrypt from 'bcryptjs';
-import { validateEmail, validatePassword, normalizeEmail } from '../../../../../src/lib/validators';
+import { validateEmail, validatePassword, normalizeEmail } from '../../../../lib/validators';
 
 // Signup API
 // - Expects JSON body: { email: string, password: string }
@@ -22,7 +22,7 @@ export async function POST(req: Request) {
 
   const normalizedEmail = normalizeEmail(email);
 
-    const client = await clientPromise;
+  const client = await getClientPromise();
     const db = client.db();
     const users = db.collection('users');
 
