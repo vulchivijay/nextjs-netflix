@@ -20,6 +20,24 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Environment
+
+Copy `.env.example` to `.env` and set `MONGODB_URI` before running the server. The auth API routes rely on this variable at runtime. During build the code is safe to build without the env set.
+
+```bash
+cp .env.example .env
+# edit .env and set MONGODB_URI
+```
+
+## Tests
+
+Unit and integration tests are powered by Vitest and Testing Library. Run:
+
+```bash
+npm test
+```
+
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:

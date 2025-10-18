@@ -2,6 +2,7 @@ import getClientPromise from '../../../../lib/mongodb';
 import { NextResponse } from 'next/server';
 import bcrypt from 'bcryptjs';
 import { validateEmail, validatePassword, normalizeEmail } from '../../../../lib/validators';
+import { signToken, createSerializedSessionToken } from '../../../../lib/auth';
 
 // Signup API
 // - Expects JSON body: { email: string, password: string }
@@ -22,8 +23,14 @@ export async function POST(req: Request) {
 
   const normalizedEmail = normalizeEmail(email);
 
-  const client = await getClientPromise();
-    const db = client.db();
+  let client;
+  try {
+    client = await getClientPromise();
+  } catch {
+    // DB not configured or unreachable — respond 503 Service Unavailable
+    return NextResponse.json({ error: 'Database unavailable' }, { status: 503 });
+  }
+  const db = client.db();
     const users = db.collection('users');
 
     // Prevent duplicate accounts
@@ -32,9 +39,13 @@ export async function POST(req: Request) {
 
     // Hash password before inserting
   const hash = await bcrypt.hash(password, 10);
-  await users.insertOne({ email: normalizedEmail, password: hash, createdAt: new Date() });
-
-    return NextResponse.json({ ok: true });
+  const insert = await users.insertOne({ email: normalizedEmail, password: hash, createdAt: new Date() });
+  // Issue JWT and set cookie
+  const token = signToken({ sub: insert.insertedId.toString(), email: normalizedEmail });
+  const cookie = createSerializedSessionToken(token);
+  const res = NextResponse.json({ ok: true });
+  res.headers.set('Set-Cookie', cookie);
+  return res;
   } catch (err) {
     // Return a generic 500 with message for debugging; do not leak sensitive info
     return NextResponse.json({ error: (err as Error).message }, { status: 500 });
