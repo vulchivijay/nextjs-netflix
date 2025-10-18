@@ -3,6 +3,9 @@
 import React from 'react';
 import '@testing-library/jest-dom';
 
+// Ensure React is available globally for components that compile to React.createElement
+(global as any).React = React;
+
 // `vi` is provided by Vitest as a global in the test environment
 // Mock next/image to render a simple img in tests
 (global as any).vi?.mock?.('next/image', () => ({

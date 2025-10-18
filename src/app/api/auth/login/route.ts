@@ -1,7 +1,8 @@
-import clientPromise from '../../../../lib/mongodb';
+import getClientPromise from '../../../../lib/mongodb';
 import { NextResponse } from 'next/server';
 import bcrypt from 'bcryptjs';
-import { validateEmail, validatePassword, normalizeEmail } from '../../../../../src/lib/validators';
+import { validateEmail, validatePassword, normalizeEmail } from '../../../../lib/validators';
+import { signToken, createSerializedSessionToken } from '../../../../lib/auth';
 
 // Login API
 // - Expects JSON body: { email: string, password: string }
@@ -20,8 +21,13 @@ export async function POST(req: Request) {
 
   const normalizedEmail = normalizeEmail(email);
 
-    const client = await clientPromise;
-    const db = client.db();
+  let client;
+  try {
+    client = await getClientPromise();
+  } catch {
+    return NextResponse.json({ error: 'Database unavailable' }, { status: 503 });
+  }
+  const db = client.db();
     const users = db.collection('users');
 
   const user = await users.findOne({ email: normalizedEmail });
@@ -31,8 +37,12 @@ export async function POST(req: Request) {
   const ok = await bcrypt.compare(password, user.password);
     if (!ok) return NextResponse.json({ error: 'Invalid credentials' }, { status: 401 });
 
-    // For demo return minimal user info. In production issue JWT or session.
-    return NextResponse.json({ ok: true, user: { email: user.email } });
+  // Issue JWT and set HttpOnly cookie
+  const token = signToken({ sub: user._id.toString(), email: user.email });
+  const cookie = createSerializedSessionToken(token);
+  const res = NextResponse.json({ ok: true, user: { email: user.email } });
+  res.headers.set('Set-Cookie', cookie);
+  return res;
   } catch (err) {
     return NextResponse.json({ error: (err as Error).message }, { status: 500 });
   }
