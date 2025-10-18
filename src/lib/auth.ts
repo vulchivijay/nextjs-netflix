@@ -11,10 +11,12 @@ export function signToken(payload: object) {
 }
 
 export function createSerializedSessionToken(token: string) {
+  // Allow overriding sameSite in env for compatibility if needed
+  const sameSite = (process.env.SESSION_SAMESITE as 'lax' | 'strict' | 'none') || 'lax';
   return serialize(TOKEN_NAME, token, {
     httpOnly: true,
     secure: process.env.NODE_ENV === 'production',
-    sameSite: 'lax',
+    sameSite,
     path: '/',
     maxAge: 60 * 60 * 24 * 7, // 7 days
   });
@@ -30,7 +32,7 @@ export function clearSessionCookie() {
   return serialize(TOKEN_NAME, '', {
     httpOnly: true,
     secure: process.env.NODE_ENV === 'production',
-    sameSite: 'lax',
+    sameSite: (process.env.SESSION_SAMESITE as 'lax' | 'strict' | 'none') || 'lax',
     path: '/',
     maxAge: 0,
   });
