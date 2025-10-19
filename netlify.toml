@@ -1,6 +1,5 @@
-[# Netlify configuration for deploying a Next.js app
+# Netlify configuration for deploying a Next.js app
 # This file controls how Netlify builds and serves the project.
-]
 
 [build]
   # Build command Netlify will run to create the production build
