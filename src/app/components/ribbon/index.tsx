@@ -12,7 +12,7 @@ export default function Ribbon() {
   };
   return (
     <section className={`${style.ribbon} ribbon py-10`}>
-      <div className="relative z-10 max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between px-4 gap-4">
+      <div className="relative z-10 max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between px-4 gap-4">
         <div className="w-full flex items-center gap-8">
           <PopcornIcon width={100} height={100} aria-label="Pop corn" />
           <div className={`${style.box} w-full flex items-center justify-between text-white px-6 py-3 rounded-2xl shadow-xl`}>

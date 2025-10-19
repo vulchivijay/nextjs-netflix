@@ -32,7 +32,7 @@ export default function Login() {
 
   return (
     <div className="relative z-10 flex justify-center">
-      <div className="max-w-md w-full p-12 bg-[rgba(0,0,0,.25)] text-white">
+      <div className="max-w-md w-full p-12 bg-[rgba(0,0,0,.4)] text-white">
         <h1 className="text-2xl font-bold mb-4">Sign in</h1>
         <form onSubmit={handleSubmit}>
           <div>
@@ -49,9 +49,9 @@ export default function Login() {
         <div>
           <input type="checkbox" /> Remember me
         </div>
-        <p className="my-3">New to Netflix?<Link href="/signup" className="font-bold un">Sign up now.</Link></p>
+        <p className="my-2">New to Netflix?<Link href="/signup" className="font-bold underline">Sign up now.</Link></p>
         <p className="my-2">This page is protected by Google reCAPTCHA to ensure you are not a bot. <Link href="/learnmore" className="underline">Learn more.</Link></p>
-        <p><Link href="/" className="text-gray-400">← Back to home</Link></p>
+        <p className="my-2"><Link href="/" className="text-gray-400">← Back to home</Link></p>
       </div>
     </div>
   );

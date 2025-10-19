@@ -20,7 +20,7 @@ export default function FrequentlyAskedQuestions() {
 
   return (
     <section className="bg-black">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-7xl mx-auto">
         <h2 className="text-xl font-semibold py-5">Frequently Asked Questions</h2>
         {faqItems.map((item, index) => (
           <AccordionItem key={index} title={item.title} content={item.content} isOpen={openIndex === index} onClick={() => handleClick(index)} />

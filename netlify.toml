@@ -1,0 +1,20 @@
+[# Netlify configuration for deploying a Next.js app
+# This file controls how Netlify builds and serves the project.
+]
+
+[build]
+  # Build command Netlify will run to create the production build
+  command = "npm run build"
+  # Directory to publish — Next.js output (.next) is used with Netlify's Next plugin
+  publish = ".next"
+  # (Optional) Path for serverless functions when using Netlify functions
+  functions = ".netlify/functions"
+
+[[plugins]]
+  # Use Netlify's Next.js plugin to handle SSR and edge functions correctly
+  package = "@netlify/plugin-nextjs"
+
+# Notes:
+# - Ensure NETLIFY_AUTH_TOKEN and NETLIFY_SITE_ID are set as GitHub Actions secrets
+#   when using the provided GitHub Action to deploy.
+# - See https://docs.netlify.com for further customization (redirects, headers).
