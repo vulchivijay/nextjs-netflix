@@ -52,3 +52,29 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## CI / Vercel deployment notes
+
+This repository includes a GitHub Actions workflow (`.github/workflows/deploy-vercel.yml`) that can deploy to Vercel when you push to `main`.
+
+Required GitHub repository secrets to enable automatic deploys:
+- `VERCEL_TOKEN` - your Vercel personal token
+- `VERCEL_PROJECT_ID` - the Vercel project id
+- `VERCEL_ORG_ID` - the Vercel organization id
+
+Required runtime environment variables (set in Vercel or your environment):
+- `MONGODB_URI` - MongoDB connection string
+- `JWT_SECRET` - secret used to sign JWT session tokens
+- `SESSION_SAMESITE` (optional) - cookie SameSite behavior: `lax` (default), `strict`, or `none`
+
+To deploy manually, build locally and upload the `.next` output and `public` folder, or connect this repository to Vercel and set the secrets above.
+
+## Netlify deployment notes
+
+You can also deploy this app to Netlify using the official Next.js plugin. A sample `netlify.toml` and GitHub Actions workflow (`.github/workflows/deploy-netlify.yml`) are included.
+
+Required Netlify-related secrets when using the provided GitHub Action:
+- `NETLIFY_AUTH_TOKEN` - your Netlify personal access token
+- `NETLIFY_SITE_ID` - the target Netlify site id
+
+Netlify requires the `@netlify/plugin-nextjs` plugin which is referenced in `netlify.toml`.

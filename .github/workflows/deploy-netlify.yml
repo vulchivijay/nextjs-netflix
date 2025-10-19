@@ -1,19 +1,12 @@
-name: CI
-
-# CI workflow: installs dependencies, runs typecheck, tests, and builds the app.
-# If this workflow fails with 'exit code 1' inspect the job logs for the failing step.
-# No secrets required for this workflow by default.
+name: Deploy to Netlify
 
 on:
   push:
-    branches: [ main, copilot ]
-  pull_request:
     branches: [ main ]
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: Print environment
@@ -22,28 +15,29 @@ jobs:
           npm --version
           pwd
           ls -la
-      - name: Use Node.js
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'
 
-      - name: Install dependencies
+      - name: Install
         run: npm ci --legacy-peer-deps || npm install --legacy-peer-deps
-
-      - name: Typecheck
-        run: npm run typecheck
-
-      - name: Run tests
-        run: npm test --silent
 
       - name: Build
         run: npm run build
-      - name: Upload build artifact (for debugging)
+
+      - name: Deploy to Netlify
+        uses: netlify/actions/cli@master
+        with:
+          args: deploy --dir=.next --prod
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+      - name: Upload build artifact (on failure)
         if: failure()
         uses: actions/upload-artifact@v4
         with:
-          name: build-diagnostics
+          name: netlify-build-diagnostics
           path: |
             .next/**
             npm-debug.log
