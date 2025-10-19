@@ -1,7 +1,7 @@
-import LandingHeader from "../components/HeroHeader";
-import Ribbon from "../components/Ribbon";
-import TrendingNow from "../components/TrendingNow";
-import Footer from "../components/Footer";
+import LandingHeader from "../components/header-secondary";
+import Ribbon from "../components/ribbon";
+import TrendingNow from "../components/trending";
+import Footer from "../components/footer";
 import style from "../page.module.css";
 
 export default function HomePage() {

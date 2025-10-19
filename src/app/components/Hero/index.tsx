@@ -1,4 +1,4 @@
-import Subscribe from '../Subscribe';
+import Subscribe from '../subscribe';
 
 export default function Hero() {
   return (

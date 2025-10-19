@@ -10,7 +10,7 @@ type ButtonProps = {
 
 export default function Button({ children, btnClick, textSize = '' }: ButtonProps) {
   return (
-    <button onClick={btnClick} className={`px-4 py-2 bg-red-600 text-white rounded ${textSize}`}>
+    <button onClick={btnClick} className={`px-6 py-3 bg-red-600 text-white rounded ${textSize}`}>
       {children}
     </button>
   )

@@ -1,7 +1,7 @@
 "use client"
 
 import { MouseEvent } from 'react';
-import Button from "../Button";
+import Button from "../button";
 import style from "../../page.module.css";
 import PopcornIcon from '../icons/Popcorn';
 

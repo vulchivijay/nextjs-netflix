@@ -1,11 +1,11 @@
-import Footer from "./components/Footer";
-import FrequentlyAskedQuestions from "./components/Faq";
-import Hero from "./components/Hero";
-import LandingHeader from "./components/HeroHeader";
-import MoreReasonsToJoin from "./components/More";
-import Ribbon from "./components/Ribbon";
-import Subscribe from "./components/Subscribe";
-import TrendingNow from "./components/TrendingNow";
+import Footer from "./components/footer";
+import FrequentlyAskedQuestions from "./components/faq";
+import Hero from "./components/hero";
+import LandingHeader from "./components/header-secondary";
+import MoreReasonsToJoin from "./components/more";
+import Ribbon from "./components/ribbon";
+import Subscribe from "./components/subscribe";
+import TrendingNow from "./components/trending";
 import style from "./page.module.css";
 
 export default function Home() {
