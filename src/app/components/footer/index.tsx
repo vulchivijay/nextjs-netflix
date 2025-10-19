@@ -47,7 +47,7 @@ export default function Footer() {
 
   return (
     <footer className="relative z-10 border-t-1 border-gray-800 pt-10 pb-20">
-      <div className="max-w-6xl m-auto text-white">
+      <div className="max-w-7xl m-auto text-white">
         <p className="text-md pb-8 text-white">
           Questions? Call <Link href="1-866-952-4456" className="underline">1-866-952-4456</Link>
         </p>

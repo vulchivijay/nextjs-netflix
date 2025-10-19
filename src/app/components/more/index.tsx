@@ -31,7 +31,7 @@ export default function MoreReasonsToJoin() {
 
   return (
     <section className="bg-black">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-7xl mx-auto">
         <h2 className="text-xl font-semibold py-5">More reasons to join</h2>
         <div className="grid grid-cols-1 pb-5 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {reasons.map(({ id, title, description, image }) => (
