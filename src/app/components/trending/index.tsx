@@ -30,7 +30,7 @@ export default function TrendingNow() {
 
   return (
     <section className="bg-black">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-7xl mx-auto">
         <h2 className="text-xl font-semibold pb-5">Trending now</h2>
         <div className="flex overflow-x-auto gap-8 pb-5" ref={cardsRef}>
           {trendingItems.map(({ id, image, alt }) => (

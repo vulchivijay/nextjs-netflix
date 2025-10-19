@@ -31,22 +31,27 @@ export default function Login() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-black text-white">
-      <div className="max-w-md w-full p-6 bg-gray-900 rounded-lg shadow-lg">
+    <div className="relative z-10 flex justify-center">
+      <div className="max-w-md w-full p-12 bg-[rgba(0,0,0,.25)] text-white">
         <h1 className="text-2xl font-bold mb-4">Sign in</h1>
-  <form onSubmit={handleSubmit} className="space-y-4">
+        <form onSubmit={handleSubmit}>
           <div>
-            <label className="text-sm">Email</label>
-            <input value={email} onChange={(e) => setEmail(e.target.value)} type="email" required className="w-full mt-1 px-3 py-2 rounded bg-white text-black" />
+            <input value={email} onChange={(e) => setEmail(e.target.value)} type="email" placeholder="Email or Mobile number" required className="w-full mb-5 px-5 py-4 text-md rounded-sm border border-white bg-black text-white" />
           </div>
           <div>
-            <label className="text-sm">Password</label>
-            <input value={password} onChange={(e) => setPassword(e.target.value)} type="password" required className="w-full mt-1 px-3 py-2 rounded bg-white text-black" />
+            <input value={password} onChange={(e) => setPassword(e.target.value)} type="password" placeholder="Password" required className="w-full mb-5 px-5 py-4 text-md rounded-sm border border-white bg-black text-white" />
           </div>
           <button type="submit" className="w-full bg-red-600 px-4 py-2 rounded" disabled={loading}>{loading ? 'Signing in...' : 'Sign in'}</button>
-  </form>
-  <p className="mt-4 text-sm">Don&apos;t have an account? <Link href="/signup" className="text-red-400">Create one</Link></p>
-  <p className="mt-3 text-sm"><Link href="/" className="text-gray-400">← Back to home</Link></p>
+        </form>
+        <div className="my-5 text-center">
+          <Link href="/forgot" className="underline">Forgot Password?</Link>
+        </div>
+        <div>
+          <input type="checkbox" /> Remember me
+        </div>
+        <p className="my-3">New to Netflix?<Link href="/signup" className="font-bold un">Sign up now.</Link></p>
+        <p className="my-2">This page is protected by Google reCAPTCHA to ensure you are not a bot. <Link href="/learnmore" className="underline">Learn more.</Link></p>
+        <p><Link href="/" className="text-gray-400">← Back to home</Link></p>
       </div>
     </div>
   );
