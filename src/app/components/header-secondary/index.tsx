@@ -3,12 +3,14 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
+import { useRouter } from 'next/navigation';
 
 import Logo from '../../../../public/assets/images/netflix-logo.png';
 
 export default function LandingHeader() {
   const [open, setOpen] = useState(false);
   const { user, setUser } = useAuthState();
+  const router = useRouter()
   
 
   return (
@@ -26,7 +28,7 @@ export default function LandingHeader() {
           </select>
           {user ? (
             <>
-              <button onClick={async () => { await fetch('/api/auth/logout', { method: 'POST' }); setUser(null); }} className="bg-gray-700 px-4 py-1 rounded-sm">Logout</button>
+              <button onClick={async () => { await fetch('/api/auth/logout', { method: 'POST' }); setUser(null); router.push("/"); }} className="bg-gray-700 px-4 py-1 rounded-sm">Logout</button>
             </>
           ) : (
             <Link href="/login" className="bg-red-700 px-4 py-1 rounded-sm hover:bg-red-900">Sign In</Link>

@@ -20,11 +20,9 @@ export default function HomePage() {
             ))}
           </div>
         </section>
-
         <Ribbon />
         <TrendingNow />
       </main>
-
       <Footer />
     </div>
   );
