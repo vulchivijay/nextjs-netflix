@@ -21,7 +21,7 @@ export default function Signup() {
     setLoading(true);
     // Call signup API with JSON body and explicit Content-Type header
     try {
-      const res = await fetch('/api/auth/signup', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ email, password }) });
+      const res = await fetch('/../api/auth/signup', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ email, password }) });
       const data = await res.json();
       setLoading(false);
       if (!res.ok) return alert(data.error || 'Signup failed');
