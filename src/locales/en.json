@@ -1,0 +1,141 @@
+{
+  "hero": {
+    "title": "Do Not Sell or Share My Personal Information",
+    "subtitle": "Your privacy rights and how to exercise them. We respect your choices about your personal information."
+  },
+  "privacyRights": {
+    "title": "Your Privacy Rights",
+    "rights": [
+      {
+        "title": "Right to Know",
+        "description": "You have the right to know what personal information we collect, use, and share about you.",
+        "details": [
+          "Categories of personal information collected in the last 12 months",
+          "Sources of that information",
+          "Business purposes for collecting it",
+          "Categories of third parties with whom we share it"
+        ]
+      },
+      {
+        "title": "Right to Delete",
+        "description": "You have the right to request deletion of your personal information, subject to certain exceptions.",
+        "details": [
+          "Complete account deletion",
+          "Removal of browsing history",
+          "Deletion of viewing preferences",
+          "Anonymization of data where deletion isn't possible"
+        ]
+      },
+      {
+        "title": "Right to Correct",
+        "description": "You have the right to correct inaccurate personal information we maintain about you.",
+        "details": [
+          "Update account information",
+          "Correct profile details",
+          "Modify payment information",
+          "Update communication preferences"
+        ]
+      },
+      {
+        "title": "Right to Opt-Out",
+        "description": "You have the right to opt-out of the sale or sharing of your personal information.",
+        "details": [
+          "Opt-out of targeted advertising",
+          "Stop sharing with third parties",
+          "Limit data collection for marketing",
+          "Control cross-device tracking"
+        ]
+      }
+    ]
+  },
+  "howToSubmit": {
+    "title": "How to Submit a Request",
+    "methods": [
+      {
+        "method": "Privacy Rights Portal",
+        "description": "Submit your request online through our secure portal",
+        "action": "Access Portal"
+      },
+      {
+        "method": "Email",
+        "description": "Send your request to our privacy team",
+        "action": "privacy@netflix.com"
+      },
+      {
+        "method": "Phone",
+        "description": "Call our privacy hotline for assistance",
+        "action": "1-888-638-3549"
+      }
+    ],
+    "expectations": {
+      "title": "What to Expect",
+      "items": [
+        "Receive confirmation within 24 hours",
+        "Identity verification may be required",
+        "Response within 45 days",
+        "Free of charge"
+      ]
+    }
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions",
+    "questions": [
+      {
+        "question": "What does 'Do Not Sell or Share My Personal Information' mean?",
+        "answer": "This means you can opt-out of Netflix selling or sharing your personal information with third parties for advertising or marketing purposes. This includes sharing data with advertising networks, data brokers, or other companies for their own commercial purposes."
+      },
+      {
+        "question": "How do I submit a privacy rights request?",
+        "answer": "You can submit a request through our Privacy Rights Portal. You'll need to verify your identity, and we'll respond within 45 days as required by law. Some requests may take longer if we need additional information to verify your identity."
+      },
+      {
+        "question": "What information do you collect about me?",
+        "answer": "We collect information you provide directly (like your email and payment info), information from your use of our service (like viewing history and device information), and information from third parties (like marketing partners). This helps us provide and improve our service."
+      },
+      {
+        "question": "Will opting out affect my Netflix service?",
+        "answer": "No, opting out will not affect your ability to use Netflix. You'll still be able to stream content, manage your account, and receive service-related communications. It only affects how we use your data for advertising and marketing purposes."
+      },
+      {
+        "question": "How long does it take to process my request?",
+        "answer": "We aim to respond to all requests within 45 days. If we need more time (up to 90 days total), we'll let you know. For account deletion requests, we may take up to 30 days to complete the deletion after verification."
+      }
+    ]
+  },
+  "additionalResources": {
+    "title": "Additional Resources",
+    "resources": [
+      {
+        "title": "Privacy Policy",
+        "description": "Learn more about how we collect, use, and protect your information.",
+        "link": "Read Policy →"
+      },
+      {
+        "title": "Cookie Preferences",
+        "description": "Control how we use cookies and similar technologies.",
+        "link": "Manage Cookies →"
+      },
+      {
+        "title": "Security Center",
+        "description": "Information about our security practices and account protection.",
+        "link": "Learn More →"
+      }
+    ]
+  },
+  "contactSupport": {
+    "title": "Need Help?",
+    "subtitle": "Our privacy team is here to assist you with any questions about your privacy rights.",
+    "privacySupport": {
+      "title": "Privacy Support",
+      "email": "Email: privacy@netflix.com",
+      "phone": "Phone: 1-888-638-3549",
+      "hours": "Mon-Fri, 9 AM - 6 PM PT"
+    },
+    "generalSupport": {
+      "title": "General Support",
+      "description": "Visit our Help Center for additional assistance",
+      "link": "Help Center →"
+    },
+    "urgentNote": "For urgent privacy concerns, please contact us immediately. We take your privacy seriously."
+  }
+}

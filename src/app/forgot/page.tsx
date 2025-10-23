@@ -1,3 +1,12 @@
+import Header from "../components/header";
+import Footer from "../components/footer";
+
 export default function Page() {
-  return <div className="p-8 text-white">Forgot Password — placeholder page</div>
+  return (
+    <>
+      <Header />
+      <div>Forgot Password — placeholder page</div>
+      <Footer />
+    </>
+  );
 }

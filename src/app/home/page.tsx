@@ -1,4 +1,4 @@
-import LandingHeader from "../components/header-secondary";
+import Header from "../components/header";
 import Ribbon from "../components/ribbon";
 import TrendingNow from "../components/trending";
 import Footer from "../components/footer";
@@ -7,7 +7,7 @@ import style from "../page.module.css";
 export default function HomePage() {
   return (
     <div className={`${style.netflixbg} font-sans min-h-screen text-white`}>
-      <LandingHeader />
+      <Header />
       <main className="relative z-10">
         <section className="px-6 pt-8">
           <h2 className="text-2xl font-semibold mb-4">Continue watching</h2>

@@ -1,0 +1,141 @@
+{
+  "hero": {
+    "title": "Ne Pas Vendre ou Partager Mes Informations Personnelles",
+    "subtitle": "Vos droits à la vie privée et comment les exercer. Nous respectons vos choix concernant vos informations personnelles."
+  },
+  "privacyRights": {
+    "title": "Vos Droits à la Vie Privée",
+    "rights": [
+      {
+        "title": "Droit de Savoir",
+        "description": "Vous avez le droit de savoir quelles informations personnelles nous collectons, utilisons et partageons à votre sujet.",
+        "details": [
+          "Catégories d'informations personnelles collectées au cours des 12 derniers mois",
+          "Sources de ces informations",
+          "Objectifs commerciaux de leur collecte",
+          "Catégories de tiers avec lesquels nous les partageons"
+        ]
+      },
+      {
+        "title": "Droit de Supprimer",
+        "description": "Vous avez le droit de demander la suppression de vos informations personnelles, sous réserve de certaines exceptions.",
+        "details": [
+          "Suppression complète du compte",
+          "Suppression de l'historique de navigation",
+          "Suppression des préférences de visualisation",
+          "Anonymisation des données lorsque la suppression n'est pas possible"
+        ]
+      },
+      {
+        "title": "Droit de Corriger",
+        "description": "Vous avez le droit de corriger les informations personnelles inexactes que nous détenons à votre sujet.",
+        "details": [
+          "Mettre à jour les informations du compte",
+          "Corriger les détails du profil",
+          "Modifier les informations de paiement",
+          "Mettre à jour les préférences de communication"
+        ]
+      },
+      {
+        "title": "Droit de Se Désinscrire",
+        "description": "Vous avez le droit de vous désinscrire de la vente ou du partage de vos informations personnelles.",
+        "details": [
+          "Se désinscrire de la publicité ciblée",
+          "Arrêter le partage avec des tiers",
+          "Limiter la collecte de données pour le marketing",
+          "Contrôler le suivi inter-appareils"
+        ]
+      }
+    ]
+  },
+  "howToSubmit": {
+    "title": "Comment Soumettre une Demande",
+    "methods": [
+      {
+        "method": "Portail des Droits à la Vie Privée",
+        "description": "Soumettez votre demande en ligne via notre portail sécurisé",
+        "action": "Accéder au Portail"
+      },
+      {
+        "method": "E-mail",
+        "description": "Envoyez votre demande à notre équipe de confidentialité",
+        "action": "privacy@netflix.com"
+      },
+      {
+        "method": "Téléphone",
+        "description": "Appelez notre ligne d'assistance confidentialité",
+        "action": "1-888-638-3549"
+      }
+    ],
+    "expectations": {
+      "title": "À Quoi S'attendre",
+      "items": [
+        "Recevoir une confirmation dans les 24 heures",
+        "Vérification d'identité peut être requise",
+        "Réponse dans les 45 jours",
+        "Gratuit"
+      ]
+    }
+  },
+  "faqs": {
+    "title": "Questions Fréquemment Posées",
+    "questions": [
+      {
+        "question": "Que signifie 'Ne Pas Vendre ou Partager Mes Informations Personnelles' ?",
+        "answer": "Cela signifie que vous pouvez vous désinscrire de la vente ou du partage de vos informations personnelles avec des tiers à des fins publicitaires ou de marketing. Cela inclut le partage de données avec des réseaux publicitaires, des courtiers en données ou d'autres entreprises pour leurs propres fins commerciales."
+      },
+      {
+        "question": "Comment soumettre une demande de droits à la vie privée ?",
+        "answer": "Vous pouvez soumettre une demande via notre Portail des Droits à la Vie Privée. Vous devrez vérifier votre identité, et nous répondrons dans les 45 jours comme requis par la loi. Certaines demandes peuvent prendre plus de temps si nous avons besoin d'informations supplémentaires pour vérifier votre identité."
+      },
+      {
+        "question": "Quelles informations collectez-vous à mon sujet ?",
+        "answer": "Nous collectons des informations que vous fournissez directement (comme votre e-mail et vos informations de paiement), des informations de votre utilisation de notre service (comme l'historique de visualisation et les informations sur l'appareil), et des informations de tiers (comme les partenaires marketing). Cela nous aide à fournir et améliorer notre service."
+      },
+      {
+        "question": "La désinscription affectera-t-elle mon service Netflix ?",
+        "answer": "Non, la désinscription n'affectera pas votre capacité à utiliser Netflix. Vous pourrez toujours diffuser du contenu, gérer votre compte et recevoir des communications liées au service. Cela n'affecte que la façon dont nous utilisons vos données à des fins publicitaires et de marketing."
+      },
+      {
+        "question": "Combien de temps faut-il pour traiter ma demande ?",
+        "answer": "Nous visons à répondre à toutes les demandes dans les 45 jours. Si nous avons besoin de plus de temps (jusqu'à 90 jours au total), nous vous le ferons savoir. Pour les demandes de suppression de compte, nous pouvons prendre jusqu'à 30 jours pour compléter la suppression après vérification."
+      }
+    ]
+  },
+  "additionalResources": {
+    "title": "Ressources Supplémentaires",
+    "resources": [
+      {
+        "title": "Politique de Confidentialité",
+        "description": "En savoir plus sur la façon dont nous collectons, utilisons et protégeons vos informations.",
+        "link": "Lire la Politique →"
+      },
+      {
+        "title": "Préférences de Cookies",
+        "description": "Contrôlez comment nous utilisons les cookies et technologies similaires.",
+        "link": "Gérer les Cookies →"
+      },
+      {
+        "title": "Centre de Sécurité",
+        "description": "Informations sur nos pratiques de sécurité et la protection des comptes.",
+        "link": "En Savoir Plus →"
+      }
+    ]
+  },
+  "contactSupport": {
+    "title": "Besoin d'Aide ?",
+    "subtitle": "Notre équipe de confidentialité est là pour vous aider avec toutes vos questions sur vos droits à la vie privée.",
+    "privacySupport": {
+      "title": "Support de Confidentialité",
+      "email": "E-mail : privacy@netflix.com",
+      "phone": "Téléphone : 1-888-638-3549",
+      "hours": "Lun-Ven, 9h - 18h PT"
+    },
+    "generalSupport": {
+      "title": "Support Général",
+      "description": "Visitez notre Centre d'Aide pour une assistance supplémentaire",
+      "link": "Centre d'Aide →"
+    },
+    "urgentNote": "Pour les préoccupations urgentes de confidentialité, contactez-nous immédiatement. Nous prenons votre confidentialité au sérieux."
+  }
+}
