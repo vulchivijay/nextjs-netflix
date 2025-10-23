@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Header from "../components/header";
+import Footer from "../components/footer";
 
 export default function Page() {
   const [downloadSpeed, setDownloadSpeed] = useState<number | null>(null);
@@ -82,6 +83,7 @@ export default function Page() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }
