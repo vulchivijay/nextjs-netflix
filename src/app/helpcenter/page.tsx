@@ -1,3 +1,10 @@
+import Header from "../components/header";
+
 export default function Page() {
-  return <div className="p-8 text-white">Help Center — placeholder page</div>
+  return (
+    <>
+      <Header />
+      <div>Help Center — placeholder page</div>
+    </>
+  );
 }

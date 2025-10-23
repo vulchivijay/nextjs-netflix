@@ -1,3 +1,10 @@
+import Header from "../components/header";
+
 export default function Page() {
-  return <div className="p-8 text-white">Media Center — placeholder page</div>
+  return (
+    <>
+      <Header />
+      <div>Media Center — placeholder page</div>
+    </>
+  );
 }
