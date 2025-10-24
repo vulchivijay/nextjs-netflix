@@ -1,27 +1,12 @@
 import Header from "../components/header";
 import Footer from "../components/footer";
+import { useTranslations } from "next-intl";
 
 export default function Page() {
-  const financialReports = [
-    { year: "2024", quarter: "Q1", type: "Earnings Release", date: "April 16, 2024" },
-    { year: "2023", quarter: "Q4", type: "Annual Report", date: "January 25, 2024" },
-    { year: "2023", quarter: "Q3", type: "Earnings Release", date: "October 18, 2023" },
-    { year: "2023", quarter: "Q2", type: "Earnings Release", date: "July 19, 2023" }
-  ];
-
-  const stockInfo = {
-    symbol: "NFLX",
-    exchange: "NASDAQ",
-    currentPrice: "$450.25",
-    change: "+2.15 (+0.48%)",
-    marketCap: "$195.2B"
-  };
-
-  const upcomingEvents = [
-    { date: "July 18, 2024", event: "Q2 2024 Earnings Call", time: "2:00 PM PT" },
-    { date: "October 17, 2024", event: "Q3 2024 Earnings Call", time: "2:00 PM PT" },
-    { date: "January 23, 2025", event: "Q4 2024 Earnings Call", time: "2:00 PM PT" }
-  ];
+  const t = useTranslations('investorrelations');
+  const financialReports = t.raw('financialReports.reports') as any[];
+  const stockInfo = t.raw('stockInfo');
+  const upcomingEvents = t.raw('upcomingEvents.events') as any[];
 
   return (
     <>
@@ -30,9 +15,9 @@ export default function Page() {
         {/* Hero Section */}
         <section className="bg-gradient-to-r from-red-600 to-red-800 py-20">
           <div className="max-w-6xl mx-auto text-center px-8">
-            <h1 className="text-5xl font-bold mb-6">Investor Relations</h1>
+            <h1 className="text-5xl font-bold mb-6">{t('hero.title')}</h1>
             <p className="text-xl mb-8">
-              Discover Netflix's financial performance, corporate governance, and investment opportunities.
+              {t('hero.description')}
             </p>
           </div>
         </section>

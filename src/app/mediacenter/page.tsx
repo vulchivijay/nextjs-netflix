@@ -1,47 +1,12 @@
 import Header from "../components/header";
 import Footer from "../components/footer";
+import { useTranslations } from "next-intl";
 
 export default function Page() {
-  const pressReleases = [
-    {
-      title: "Netflix Reports Q4 2024 Earnings",
-      date: "January 15, 2025",
-      summary: "Netflix announces record subscriber growth and strong financial performance for Q4 2024.",
-      link: "#"
-    },
-    {
-      title: "Netflix Original 'Stranger Things' Season 5 Premieres",
-      date: "January 10, 2025",
-      summary: "The highly anticipated final season of Stranger Things is now streaming worldwide.",
-      link: "#"
-    },
-    {
-      title: "Netflix Expands Content Partnership with Major Studios",
-      date: "December 20, 2024",
-      summary: "Netflix announces multi-year agreements to bring exclusive content from leading production companies.",
-      link: "#"
-    },
-    {
-      title: "Netflix Launches New Interactive Content Format",
-      date: "December 15, 2024",
-      summary: "Introducing 'Choose Your Own Adventure' style storytelling for select Netflix originals.",
-      link: "#"
-    }
-  ];
-
-  const images = [
-    { src: "/placeholder-image1.jpg", alt: "Netflix Original Series", caption: "Behind the scenes of our latest series" },
-    { src: "/placeholder-image2.jpg", alt: "Award Ceremony", caption: "Netflix at the Emmys 2024" },
-    { src: "/placeholder-image3.jpg", alt: "Global Event", caption: "Netflix Tudum event highlights" },
-    { src: "/placeholder-image4.jpg", alt: "Content Creation", caption: "Our production teams at work" }
-  ];
-
-  const stats = [
-    { number: "270M+", label: "Global Members" },
-    { number: "190+", label: "Countries" },
-    { number: "15,000+", label: "Titles in Our Catalog" },
-    { number: "1,000+", label: "Hours of Original Content" }
-  ];
+  const t = useTranslations('mediacenter');
+  const pressReleases = t.raw('pressReleases') as any[];
+  const images = t.raw('images') as any[];
+  const stats = t.raw('stats') as any[];
 
   return (
     <>
@@ -50,9 +15,9 @@ export default function Page() {
         {/* Hero Section */}
         <section className="bg-gradient-to-r from-red-600 to-red-800 py-20">
           <div className="max-w-4xl mx-auto text-center px-8">
-            <h1 className="text-5xl font-bold mb-6">Netflix Media Center</h1>
+            <h1 className="text-5xl font-bold mb-6">{t('hero.title')}</h1>
             <p className="text-xl mb-8">
-              Your source for Netflix news, press releases, images, and company information.
+              {t('hero.description')}
             </p>
           </div>
         </section>
@@ -74,7 +39,7 @@ export default function Page() {
         {/* Press Releases Section */}
         <section className="py-16 px-8 bg-gray-900">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold mb-12 text-center">Latest Press Releases</h2>
+            <h2 className="text-3xl font-bold mb-12 text-center">{t('sections.pressReleases.title')}</h2>
             <div className="space-y-8">
               {pressReleases.map((release, index) => (
                 <div key={index} className="bg-gray-800 p-6 rounded-lg">
@@ -86,7 +51,7 @@ export default function Page() {
                     </div>
                     <div className="mt-4 md:mt-0 md:ml-6">
                       <button className="bg-red-600 hover:bg-red-700 px-6 py-2 rounded text-white font-medium transition-colors">
-                        Read More
+                        {t('sections.pressReleases.readMore')}
                       </button>
                     </div>
                   </div>
@@ -95,7 +60,7 @@ export default function Page() {
             </div>
             <div className="text-center mt-8">
               <button className="border border-white px-8 py-3 rounded-lg font-semibold text-white hover:bg-white hover:text-black transition-colors">
-                View All Press Releases
+                {t('sections.pressReleases.viewAll')}
               </button>
             </div>
           </div>
@@ -104,7 +69,7 @@ export default function Page() {
         {/* Images Section */}
         <section className="py-16 px-8">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl font-bold mb-12 text-center">Press Images</h2>
+            <h2 className="text-3xl font-bold mb-12 text-center">{t('sections.images.title')}</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               {images.map((image, index) => (
                 <div key={index} className="bg-gray-800 rounded-lg overflow-hidden">
@@ -114,7 +79,7 @@ export default function Page() {
                   <div className="p-4">
                     <p className="text-sm text-gray-300 mb-2">{image.caption}</p>
                     <button className="text-red-400 hover:text-red-300 text-sm font-medium">
-                      Download High-Res
+                      {t('sections.images.download')}
                     </button>
                   </div>
                 </div>
@@ -122,7 +87,7 @@ export default function Page() {
             </div>
             <div className="text-center mt-8">
               <button className="border border-white px-8 py-3 rounded-lg font-semibold text-white hover:bg-white hover:text-black transition-colors">
-                View Image Gallery
+                {t('sections.images.viewGallery')}
               </button>
             </div>
           </div>
@@ -131,39 +96,39 @@ export default function Page() {
         {/* Contact Section */}
         <section className="py-16 px-8 bg-gray-900">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-6">Media Inquiries</h2>
+            <h2 className="text-3xl font-bold mb-6">{t('sections.contact.title')}</h2>
             <p className="text-xl text-gray-300 mb-8">
-              For press inquiries, please contact our media relations team.
+              {t('sections.contact.description')}
             </p>
             <div className="grid md:grid-cols-2 gap-8 mb-8">
               <div className="bg-gray-800 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold mb-4">Press Contacts</h3>
+                <h3 className="text-xl font-semibold mb-4">{t('sections.contact.pressContacts.title')}</h3>
                 <div className="space-y-2 text-left">
                   <p className="text-gray-300">
-                    <strong>General Inquiries:</strong> press@netflix.com
+                    <strong>{t('sections.contact.pressContacts.generalInquiries')}:</strong> {t('sections.contact.pressContacts.email')}
                   </p>
                   <p className="text-gray-300">
-                    <strong>Phone:</strong> 1-408-540-3700
+                    <strong>{t('sections.contact.pressContacts.phoneLabel')}:</strong> {t('sections.contact.pressContacts.phone')}
                   </p>
                   <p className="text-gray-300">
-                    <strong>Address:</strong> 100 Winchester Circle, Los Gatos, CA 95032
+                    <strong>{t('sections.contact.pressContacts.addressLabel')}:</strong> {t('sections.contact.pressContacts.address')}
                   </p>
                 </div>
               </div>
               <div className="bg-gray-800 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold mb-4">Social Media</h3>
+                <h3 className="text-xl font-semibold mb-4">{t('sections.contact.socialMedia.title')}</h3>
                 <p className="text-gray-300 mb-4">
-                  Follow Netflix for the latest news and updates:
+                  {t('sections.contact.socialMedia.description')}
                 </p>
                 <div className="flex space-x-4 justify-center">
-                  <a href="#" className="text-red-500 hover:text-red-400">Twitter</a>
-                  <a href="#" className="text-red-500 hover:text-red-400">Facebook</a>
-                  <a href="#" className="text-red-500 hover:text-red-400">Instagram</a>
+                  <a href="#" className="text-red-500 hover:text-red-400">{t('sections.contact.socialMedia.twitter')}</a>
+                  <a href="#" className="text-red-500 hover:text-red-400">{t('sections.contact.socialMedia.facebook')}</a>
+                  <a href="#" className="text-red-500 hover:text-red-400">{t('sections.contact.socialMedia.instagram')}</a>
                 </div>
               </div>
             </div>
             <button className="bg-red-600 hover:bg-red-700 px-8 py-3 rounded-lg font-semibold text-lg transition-colors">
-              Contact Press Team
+              {t('sections.contact.contactButton')}
             </button>
           </div>
         </section>

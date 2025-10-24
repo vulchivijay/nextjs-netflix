@@ -3,35 +3,15 @@
 import Header from "../components/header";
 import Footer from "../components/footer";
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 
 export default function Page() {
   const [activeTab, setActiveTab] = useState("profile");
-
-  const tabs = [
-    { id: "profile", label: "Profile & Settings" },
-    { id: "billing", label: "Billing & Payments" },
-    { id: "history", label: "Viewing History" },
-    { id: "security", label: "Security & Privacy" }
-  ];
-
-  const profileSettings = [
-    { label: "Email", value: "user@example.com", action: "Change Email" },
-    { label: "Password", value: "••••••••", action: "Change Password" },
-    { label: "Phone Number", value: "+1 (555) 123-4567", action: "Update Phone" },
-    { label: "Language", value: "English", action: "Change Language" }
-  ];
-
-  const paymentMethods = [
-    { type: "Credit Card", last4: "**** 1234", expiry: "12/26", default: true },
-    { type: "PayPal", last4: "user@example.com", expiry: "N/A", default: false }
-  ];
-
-  const viewingHistory = [
-    { title: "Stranger Things", date: "Watched 2 days ago", progress: "Season 4, Episode 3" },
-    { title: "The Crown", date: "Watched 3 days ago", progress: "Season 5, Episode 2" },
-    { title: "Money Heist", date: "Watched 1 week ago", progress: "Season 5, Episode 1" },
-    { title: "Black Mirror", date: "Watched 2 weeks ago", progress: "Season 6, Episode 1" }
-  ];
+  const t = useTranslations('account');
+  const tabs = t.raw('tabs') as any[];
+  const profileSettings = t.raw('profileSettings') as any[];
+  const paymentMethods = t.raw('paymentMethods') as any[];
+  const viewingHistory = t.raw('viewingHistory') as any[];
 
   return (
     <>
@@ -40,9 +20,9 @@ export default function Page() {
         {/* Hero Section */}
         <section className="bg-gradient-to-r from-red-600 to-red-800 py-16">
           <div className="max-w-4xl mx-auto text-center px-8">
-            <h1 className="text-4xl font-bold mb-4">Account Settings</h1>
+            <h1 className="text-4xl font-bold mb-4">{t('hero.title')}</h1>
             <p className="text-lg text-gray-200">
-              Manage your Netflix account, billing, and preferences.
+              {t('hero.subtitle')}
             </p>
           </div>
         </section>
@@ -68,7 +48,7 @@ export default function Page() {
             {/* Profile & Settings Tab */}
             {activeTab === "profile" && (
               <div className="space-y-6">
-                <h2 className="text-2xl font-bold mb-6">Profile & Settings</h2>
+                <h2 className="text-2xl font-bold mb-6">{t('profileTab.title')}</h2>
                 <div className="grid md:grid-cols-2 gap-6">
                   {profileSettings.map((setting, index) => (
                     <div key={index} className="bg-gray-800 p-6 rounded-lg">

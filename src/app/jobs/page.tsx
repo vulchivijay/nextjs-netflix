@@ -1,58 +1,11 @@
 import Header from "../components/header";
 import Footer from "../components/footer";
+import { useTranslations } from "next-intl";
 
 export default function Page() {
-  const jobCategories = [
-    {
-      title: "Engineering",
-      description: "Build the future of entertainment with our engineering teams.",
-      jobs: [
-        { title: "Senior Software Engineer", location: "Los Gatos, CA", type: "Full-time" },
-        { title: "Frontend Developer", location: "Remote", type: "Full-time" },
-        { title: "Backend Engineer", location: "Los Angeles, CA", type: "Full-time" },
-        { title: "DevOps Engineer", location: "New York, NY", type: "Full-time" }
-      ]
-    },
-    {
-      title: "Product & Design",
-      description: "Shape the user experience and product strategy.",
-      jobs: [
-        { title: "Product Manager", location: "Los Gatos, CA", type: "Full-time" },
-        { title: "UX Designer", location: "Remote", type: "Full-time" },
-        { title: "UI Designer", location: "Los Angeles, CA", type: "Full-time" },
-        { title: "Data Analyst", location: "New York, NY", type: "Full-time" }
-      ]
-    },
-    {
-      title: "Content & Marketing",
-      description: "Tell stories and connect with audiences worldwide.",
-      jobs: [
-        { title: "Content Strategist", location: "Los Gatos, CA", type: "Full-time" },
-        { title: "Marketing Manager", location: "Remote", type: "Full-time" },
-        { title: "Social Media Specialist", location: "Los Angeles, CA", type: "Full-time" },
-        { title: "Public Relations Manager", location: "New York, NY", type: "Full-time" }
-      ]
-    },
-    {
-      title: "Operations & Support",
-      description: "Keep our global operations running smoothly.",
-      jobs: [
-        { title: "Customer Support Lead", location: "Los Gatos, CA", type: "Full-time" },
-        { title: "Operations Manager", location: "Remote", type: "Full-time" },
-        { title: "Talent Acquisition Specialist", location: "Los Angeles, CA", type: "Full-time" },
-        { title: "Finance Analyst", location: "New York, NY", type: "Full-time" }
-      ]
-    }
-  ];
-
-  const benefits = [
-    "Competitive salary and equity",
-    "Comprehensive health benefits",
-    "Flexible work arrangements",
-    "Professional development opportunities",
-    "Catered meals and snacks",
-    "State-of-the-art office facilities"
-  ];
+  const t = useTranslations('jobs');
+  const jobCategories = t.raw('jobCategories') as any[];
+  const benefits = t.raw('benefits') as string[];
 
   return (
     <>
@@ -61,12 +14,12 @@ export default function Page() {
         {/* Hero Section */}
         <section className="bg-gradient-to-r from-red-600 to-red-800 py-20">
           <div className="max-w-4xl mx-auto text-center px-8">
-            <h1 className="text-5xl font-bold mb-6">Join the Netflix Team</h1>
+            <h1 className="text-5xl font-bold mb-6">{t('hero.title')}</h1>
             <p className="text-xl mb-8">
-              Help us entertain the world. We're looking for creative, passionate people to join our mission.
+              {t('hero.description')}
             </p>
             <button className="bg-white text-red-600 px-8 py-3 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-colors">
-              View Open Positions
+              {t('hero.button')}
             </button>
           </div>
         </section>
@@ -114,7 +67,7 @@ export default function Page() {
                   <h3 className="text-2xl font-semibold mb-4">{category.title}</h3>
                   <p className="text-gray-300 mb-6">{category.description}</p>
                   <div className="grid md:grid-cols-2 gap-4">
-                    {category.jobs.map((job, jobIndex) => (
+                    {category.jobs.map((job: any, jobIndex: number) => (
                       <div key={jobIndex} className="bg-gray-700 p-4 rounded-lg">
                         <h4 className="font-semibold mb-2">{job.title}</h4>
                         <div className="text-sm text-gray-400 space-y-1">

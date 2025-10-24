@@ -1,39 +1,29 @@
-# TODO: Add Footer Component to All Pages Without It
+# Internationalization Task: Convert Static Content to JSON
 
 ## Overview
-Add the Footer component to all page.tsx files that currently do not include it. The Footer should be imported from "../components/footer" and placed at the end of the JSX structure.
+Convert hardcoded static content in page components to JSON objects in en.json for internationalization support.
 
-## Files to Edit
-- [x] src/app/account/page.tsx
-- [x] src/app/adchoices/page.tsx
-- [x] src/app/buygiftcards/page.tsx
-- [x] src/app/contactus/page.tsx
-- [x] src/app/cookiepreferences/page.tsx
-- [x] src/app/corporateinformation/page.tsx
-- [x] src/app/donotsellorsharemypersonalinformation/page.tsx
-- [x] src/app/faq/page.tsx
-- [x] src/app/forgot/page.tsx
-- [x] src/app/helpcenter/page.tsx
-- [x] src/app/investorrelations/page.tsx
-- [x] src/app/jobs/page.tsx
-- [x] src/app/learnmore/page.tsx
-- [x] src/app/legalnotices/page.tsx
-- [x] src/app/login/page.tsx
-- [x] src/app/mediacenter/page.tsx
-- [x] src/app/netflixhouse/page.tsx
-- [x] src/app/netflixshop/page.tsx
-- [x] src/app/onlyonnetflix/page.tsx
-- [x] src/app/privacy/page.tsx
-- [x] src/app/redeemgiftcards/page.tsx
-- [x] src/app/signup/page.tsx
-- [x] src/app/speedtest/page.tsx
-- [x] src/app/termsofuse/page.tsx
-- [x] src/app/waystowatch/page.tsx
+## Detailed Steps
 
-## Steps for Each File
-1. Add import: `import Footer from "../components/footer";`
-2. Add `<Footer />` before the closing fragment or tag.
+### 1. Update en.json with Translation Objects
+- [ ] Add "privacy" object with sections array containing title and content arrays
+- [ ] Add "termsofuse" object with sections array for each section's title and content
+- [x] Add "waystowatch" object with devices, platforms, viewingOptions, hero, gettingStarted, faq, and cta sub-objects
+- [ ] Add "onlyonnetflix" object with originals, upcoming, genres, hero, and cta sub-objects
 
-## Followup
-- Run development server to verify Footer appears on all pages.
-- Check for layout issues.
+### 2. Update Page Components
+- [ ] Update src/app/privacy/page.tsx: Add 'use client', import useTranslations, replace hardcoded sections with t.raw('privacy.sections')
+- [ ] Update src/app/termsofuse/page.tsx: Add 'use client', import useTranslations, replace hardcoded content with t.raw('termsofuse.sections')
+- [x] Update src/app/waystowatch/page.tsx: Add 'use client', import useTranslations, replace all hardcoded arrays and strings with translation calls
+- [ ] Update src/app/onlyonnetflix/page.tsx: Add 'use client', import useTranslations, replace all hardcoded arrays and strings with translation calls
+
+### 3. Testing
+- [ ] Run the application to ensure all pages load without errors
+- [ ] Check for any missing translation keys
+- [ ] Verify that all static content is properly translated
+
+## Notes
+- Use t.raw() for arrays and complex objects
+- Follow existing en.json structure patterns
+- Ensure consistent key naming conventions
+- Client components (login, signup, etc.) already use translations where needed

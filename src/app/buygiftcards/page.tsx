@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import Header from "../components/header";
 import Footer from "../components/footer";
+import { useTranslations } from "next-intl";
 
 export default function Page() {
   const [selectedAmount, setSelectedAmount] = useState<number | null>(null);
@@ -15,7 +16,8 @@ export default function Page() {
   const [billingName, setBillingName] = useState('');
   const [loading, setLoading] = useState(false);
 
-  const amounts = [10, 25, 50, 100];
+  const t = useTranslations('buygiftcards');
+  const amounts = t.raw('amounts') as number[];
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -45,7 +47,7 @@ export default function Page() {
       <Header />
       <div className="min-h-screen bg-black text-white p-8">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl font-bold mb-8">Buy Netflix Gift Cards</h1>
+          <h1 className="text-4xl font-bold mb-8">{t('title')}</h1>
 
           <form onSubmit={handleSubmit} className="space-y-8">
             {/* Gift Card Amount Selection */}
@@ -58,8 +60,8 @@ export default function Page() {
                     type="button"
                     onClick={() => setSelectedAmount(amount)}
                     className={`p-4 rounded-lg border-2 transition-colors ${selectedAmount === amount
-                        ? 'border-red-600 bg-red-600 text-white'
-                        : 'border-gray-600 bg-gray-700 text-white hover:border-red-500'
+                      ? 'border-red-600 bg-red-600 text-white'
+                      : 'border-gray-600 bg-gray-700 text-white hover:border-red-500'
                       }`}
                   >
                     ${amount}
