@@ -1,8 +1,8 @@
 "use client";
 
-import { useState } from 'react';
 import Header from "../components/header";
 import Footer from "../components/footer";
+import { useState } from 'react';
 
 export default function Page() {
   const [downloadSpeed, setDownloadSpeed] = useState<number | null>(null);

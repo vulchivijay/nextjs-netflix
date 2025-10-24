@@ -1,8 +1,8 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
 import Header from "../components/header";
 import Footer from "../components/footer";
+import { useTranslations } from 'next-intl';
 
 export default function Page() {
   const t = useTranslations('privacy');

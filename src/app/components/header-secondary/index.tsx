@@ -11,7 +11,7 @@ export default function LandingHeader() {
   const [open, setOpen] = useState(false);
   const { user, setUser } = useAuthState();
   const router = useRouter()
-  
+
 
   return (
     <header>
