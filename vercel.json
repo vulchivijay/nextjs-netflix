@@ -1,13 +1,10 @@
 {
   "version": 2,
   "builds": [
-    { "src": "package.json", "use": "@vercel/next" }
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
   ],
-  "routes": [],
-  "comments": {
-    "purpose": "This file instructs Vercel how to build and route the Next.js app.",
-    "note": "JSON does not support comments, so this 'comments' object is informational only and ignored by Vercel.",
-    "secrets": "Set environment variables (MONGODB_URI, JWT_SECRET) in the Vercel dashboard or via the Git integration before deploying.",
-    "documentation": "https://vercel.com/docs/platform/projects"
-  }
+  "routes": []
 }
