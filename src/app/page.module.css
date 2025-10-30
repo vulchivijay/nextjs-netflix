@@ -1,13 +1,13 @@
 .netflixbg {
   position: relative;
   z-index: 0;
-  background-image: url('./../../public/assets/images/bg-in.jpg');
+  background-image: url("./../../public/assets/images/bg-in.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: top;
   background-color: #000;
 }
-.netflixbg::after {
+/* .netflixbg::after {
   content: '';
   position: absolute;
   z-index: 1;
@@ -16,7 +16,7 @@
   width: 100%;
   height: 100%;
   background-color: rgba(0,0,0,.6);
-}
+} */
 .netflixbg .container {
   max-width: 90%;
   margin: 0 auto;

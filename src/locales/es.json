@@ -1,0 +1,141 @@
+{
+  "hero": {
+    "title": "No Vender o Compartir Mi Información Personal",
+    "subtitle": "Tus derechos de privacidad y cómo ejercerlos. Respetamos tus elecciones sobre tu información personal."
+  },
+  "privacyRights": {
+    "title": "Tus Derechos de Privacidad",
+    "rights": [
+      {
+        "title": "Derecho a Saber",
+        "description": "Tienes el derecho de saber qué información personal recopilamos, usamos y compartimos sobre ti.",
+        "details": [
+          "Categorías de información personal recopilada en los últimos 12 meses",
+          "Fuentes de esa información",
+          "Propósitos comerciales para recopilarla",
+          "Categorías de terceros con quienes la compartimos"
+        ]
+      },
+      {
+        "title": "Derecho a Eliminar",
+        "description": "Tienes el derecho de solicitar la eliminación de tu información personal, sujeto a ciertas excepciones.",
+        "details": [
+          "Eliminación completa de la cuenta",
+          "Eliminación del historial de navegación",
+          "Eliminación de preferencias de visualización",
+          "Anonimización de datos donde la eliminación no es posible"
+        ]
+      },
+      {
+        "title": "Derecho a Corregir",
+        "description": "Tienes el derecho de corregir información personal inexacta que mantenemos sobre ti.",
+        "details": [
+          "Actualizar información de la cuenta",
+          "Corregir detalles del perfil",
+          "Modificar información de pago",
+          "Actualizar preferencias de comunicación"
+        ]
+      },
+      {
+        "title": "Derecho a Optar por No Participar",
+        "description": "Tienes el derecho de optar por no participar en la venta o compartición de tu información personal.",
+        "details": [
+          "Optar por no participar en publicidad dirigida",
+          "Detener el compartimiento con terceros",
+          "Limitar la recopilación de datos para marketing",
+          "Controlar el seguimiento entre dispositivos"
+        ]
+      }
+    ]
+  },
+  "howToSubmit": {
+    "title": "Cómo Enviar una Solicitud",
+    "methods": [
+      {
+        "method": "Portal de Derechos de Privacidad",
+        "description": "Envía tu solicitud en línea a través de nuestro portal seguro",
+        "action": "Acceder al Portal"
+      },
+      {
+        "method": "Correo Electrónico",
+        "description": "Envía tu solicitud a nuestro equipo de privacidad",
+        "action": "privacy@netflix.com"
+      },
+      {
+        "method": "Teléfono",
+        "description": "Llama a nuestra línea directa de privacidad para asistencia",
+        "action": "1-888-638-3549"
+      }
+    ],
+    "expectations": {
+      "title": "Qué Esperar",
+      "items": [
+        "Recibe confirmación dentro de 24 horas",
+        "Puede requerirse verificación de identidad",
+        "Respuesta dentro de 45 días",
+        "Sin costo"
+      ]
+    }
+  },
+  "faqs": {
+    "title": "Preguntas Frecuentes",
+    "questions": [
+      {
+        "question": "¿Qué significa 'No Vender o Compartir Mi Información Personal'?",
+        "answer": "Esto significa que puedes optar por no participar en la venta o compartimiento de tu información personal con terceros para fines publicitarios o de marketing. Esto incluye compartir datos con redes publicitarias, corredores de datos u otras compañías para sus propios propósitos comerciales."
+      },
+      {
+        "question": "¿Cómo envío una solicitud de derechos de privacidad?",
+        "answer": "Puedes enviar una solicitud a través de nuestro Portal de Derechos de Privacidad. Necesitarás verificar tu identidad, y responderemos dentro de 45 días según lo requerido por la ley. Algunas solicitudes pueden tomar más tiempo si necesitamos información adicional para verificar tu identidad."
+      },
+      {
+        "question": "¿Qué información recopilas sobre mí?",
+        "answer": "Recopilamos información que proporcionas directamente (como tu correo electrónico e información de pago), información de tu uso de nuestro servicio (como historial de visualización e información del dispositivo), e información de terceros (como socios de marketing). Esto nos ayuda a proporcionar y mejorar nuestro servicio."
+      },
+      {
+        "question": "¿Optar por no participar afectará mi servicio de Netflix?",
+        "answer": "No, optar por no participar no afectará tu capacidad de usar Netflix. Aún podrás transmitir contenido, gestionar tu cuenta y recibir comunicaciones relacionadas con el servicio. Solo afecta cómo usamos tus datos para fines publicitarios y de marketing."
+      },
+      {
+        "question": "¿Cuánto tiempo toma procesar mi solicitud?",
+        "answer": "Nos esforzamos por responder a todas las solicitudes dentro de 45 días. Si necesitamos más tiempo (hasta 90 días en total), te lo haremos saber. Para solicitudes de eliminación de cuenta, podemos tomar hasta 30 días para completar la eliminación después de la verificación."
+      }
+    ]
+  },
+  "additionalResources": {
+    "title": "Recursos Adicionales",
+    "resources": [
+      {
+        "title": "Política de Privacidad",
+        "description": "Aprende más sobre cómo recopilamos, usamos y protegemos tu información.",
+        "link": "Leer Política →"
+      },
+      {
+        "title": "Preferencias de Cookies",
+        "description": "Controla cómo usamos cookies y tecnologías similares.",
+        "link": "Gestionar Cookies →"
+      },
+      {
+        "title": "Centro de Seguridad",
+        "description": "Información sobre nuestras prácticas de seguridad y protección de cuenta.",
+        "link": "Aprender Más →"
+      }
+    ]
+  },
+  "contactSupport": {
+    "title": "¿Necesitas Ayuda?",
+    "subtitle": "Nuestro equipo de privacidad está aquí para ayudarte con cualquier pregunta sobre tus derechos de privacidad.",
+    "privacySupport": {
+      "title": "Soporte de Privacidad",
+      "email": "Correo electrónico: privacy@netflix.com",
+      "phone": "Teléfono: 1-888-638-3549",
+      "hours": "Lun-Vie, 9 AM - 6 PM PT"
+    },
+    "generalSupport": {
+      "title": "Soporte General",
+      "description": "Visita nuestro Centro de Ayuda para asistencia adicional",
+      "link": "Centro de Ayuda →"
+    },
+    "urgentNote": "Para preocupaciones urgentes de privacidad, contáctanos inmediatamente. Tomamos tu privacidad en serio."
+  }
+}
