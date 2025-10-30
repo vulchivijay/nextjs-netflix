@@ -8,20 +8,22 @@ export function middleware(request: NextRequest) {
   if (
     pathname.startsWith('/_next') ||
     pathname.startsWith('/api') ||
-    pathname.endsWith('.ico') ||
-    pathname.endsWith('.png') ||
-    pathname.endsWith('.jpg')
+    pathname.startsWith('/public') ||
+    pathname.endsWith('.well-known')
   ) {
+    // console.log("ERROR");
     return NextResponse.next();
   }
   // Redirect `/` to default locale
   if (pathname === '/') {
+    console.log("pathname");
     return NextResponse.redirect(new URL('/en', request.url));
   }
+  // Check if path starts with a locale
   const locale = pathname.split('/')[1];
   if (!locales.includes(locale as any)) {
     console.warn(`Invalid locale in middleware: ${locale}`);
-    return NextResponse.redirect(new URL('/en', request.url));
+    return NextResponse.redirect(new URL(`/en/${locale}`, request.url));
   }
   return NextResponse.next();
 }

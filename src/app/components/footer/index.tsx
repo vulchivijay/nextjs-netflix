@@ -3,7 +3,7 @@ import { footerColumns, supportPhone, learnMoreHref } from '@/lib/links'
 
 export default function Footer() {
   return (
-    <footer className="relative z-10 bg-black border-t-1 border-gray-200 pt-10 pb-20">
+    <footer className="relative z-10 bg-black border-t-4 border-gray-600 pt-10 pb-20">
       <div className="max-w-7xl m-auto text-white">
         <p className="text-md pb-8 text-white">
           Questions? Call <Link href={`tel:${supportPhone}`} className="underline">{supportPhone}</Link>
