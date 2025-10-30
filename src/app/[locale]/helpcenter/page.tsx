@@ -10,7 +10,7 @@ export default function Page() {
 
   return (
     <>
-      <div className="min-h-screen bg-black text-white">
+      <div className="relative z-10 bg-black text-white">
         {/* Hero Section */}
         <section className="bg-gradient-to-r from-red-600 to-red-800 py-20">
           <div className="max-w-4xl mx-auto text-center px-8">

@@ -3,7 +3,7 @@ import TrendingNow from "../../components/trending";
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className="relative z-10 bg-black text-white">
       <main className="relative z-10">
         <section className="px-6 pt-8">
           <h2 className="text-2xl font-semibold mb-4">Continue watching</h2>

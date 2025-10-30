@@ -48,7 +48,7 @@ export default function Page() {
 
   return (
     <>
-      <div className="min-h-screen bg-black text-white p-8">
+      <div className="relative z-10 bg-black text-white p-8">
         <h1 className="text-3xl font-bold mb-8">Internet Speed Test</h1>
         <button
           onClick={testSpeed}

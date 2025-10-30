@@ -9,7 +9,7 @@ export default function Page() {
 
   return (
     <>
-      <div className="min-h-screen bg-black text-white p-8">
+      <div className="relative z-10 bg-black text-white p-8">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl font-bold mb-8 text-center">{t('title')}</h1>
 

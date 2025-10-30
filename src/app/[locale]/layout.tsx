@@ -53,12 +53,12 @@ export default async function RootLayout(props: {
   else {
     return (
       <html lang={config.locale}>
-        <body className={`${style.netflixbg} ${geistSans.variable} ${geistMono.variable} antialiased`}>
+        <body className={`${style.netflixbg} ${geistSans.variable} ${geistMono.variable} antialiased min-h-screen`}>
           <NextIntlClientProvider messages={config.messages}>
             <TopProgress />
             <LandingHeader />
             {children}
-            <Footer locale={locale} />
+            <Footer />
           </NextIntlClientProvider>
         </body>
       </html>
