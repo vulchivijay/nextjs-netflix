@@ -66,7 +66,6 @@ describe('SpeedTest Page', () => {
     const mockAlert = vi.spyOn(window, 'alert').mockImplementation(() => { });
 
     (global.fetch as any)
-      .mockResolvedValueOnce({ ok: true }) // ping
       .mockResolvedValueOnce({ json: () => Promise.resolve({ error: 'Download failed' }) }); // download error
 
     render(<Page />);
@@ -85,8 +84,6 @@ describe('SpeedTest Page', () => {
     const mockAlert = vi.spyOn(window, 'alert').mockImplementation(() => { });
 
     (global.fetch as any)
-      .mockResolvedValueOnce({ ok: true }) // ping
-      .mockResolvedValueOnce({ json: () => Promise.resolve({ speed: 50 }) }) // download
       .mockResolvedValueOnce({ json: () => Promise.resolve({ error: 'Upload failed' }) }); // upload error
 
     render(<Page />);

@@ -1,13 +1,13 @@
 {
   "hero": {
-    "title": "Ne Pas Vendre ou Partager Mes Informations Personnelles",
-    "subtitle": "Vos droits à la vie privée et comment les exercer. Nous respectons vos choix concernant vos informations personnelles."
+    "title": "Ne vendez ni ne partagez mes informations personnelles",
+    "subtitle": "Vos droits en matière de confidentialité et comment les exercer. Nous respectons vos choix concernant vos informations personnelles."
   },
   "privacyRights": {
-    "title": "Vos Droits à la Vie Privée",
+    "title": "Vos droits en matière de confidentialité",
     "rights": [
       {
-        "title": "Droit de Savoir",
+        "title": "Droit de savoir",
         "description": "Vous avez le droit de savoir quelles informations personnelles nous collectons, utilisons et partageons à votre sujet.",
         "details": [
           "Catégories d'informations personnelles collectées au cours des 12 derniers mois",
@@ -17,18 +17,18 @@
         ]
       },
       {
-        "title": "Droit de Supprimer",
+        "title": "Droit de suppression",
         "description": "Vous avez le droit de demander la suppression de vos informations personnelles, sous réserve de certaines exceptions.",
         "details": [
           "Suppression complète du compte",
           "Suppression de l'historique de navigation",
-          "Suppression des préférences de visualisation",
+          "Suppression des préférences de visionnage",
           "Anonymisation des données lorsque la suppression n'est pas possible"
         ]
       },
       {
-        "title": "Droit de Corriger",
-        "description": "Vous avez le droit de corriger les informations personnelles inexactes que nous détenons à votre sujet.",
+        "title": "Droit de rectification",
+        "description": "Vous avez le droit de corriger des informations personnelles inexactes que nous détenons à votre sujet.",
         "details": [
           "Mettre à jour les informations du compte",
           "Corriger les détails du profil",
@@ -37,24 +37,24 @@
         ]
       },
       {
-        "title": "Droit de Se Désinscrire",
-        "description": "Vous avez le droit de vous désinscrire de la vente ou du partage de vos informations personnelles.",
+        "title": "Droit de refus",
+        "description": "Vous avez le droit de refuser la vente ou le partage de vos informations personnelles.",
         "details": [
-          "Se désinscrire de la publicité ciblée",
+          "Refuser la publicité ciblée",
           "Arrêter le partage avec des tiers",
-          "Limiter la collecte de données pour le marketing",
+          "Limiter la collecte de données à des fins de marketing",
           "Contrôler le suivi inter-appareils"
         ]
       }
     ]
   },
   "howToSubmit": {
-    "title": "Comment Soumettre une Demande",
+    "title": "Comment soumettre une demande",
     "methods": [
       {
-        "method": "Portail des Droits à la Vie Privée",
+        "method": "Portail des droits en matière de confidentialité",
         "description": "Soumettez votre demande en ligne via notre portail sécurisé",
-        "action": "Accéder au Portail"
+        "action": "Accéder au portail"
       },
       {
         "method": "E-mail",
@@ -63,79 +63,1849 @@
       },
       {
         "method": "Téléphone",
-        "description": "Appelez notre ligne d'assistance confidentialité",
+        "description": "Appelez notre ligne directe de confidentialité pour obtenir de l'aide",
         "action": "1-888-638-3549"
       }
     ],
     "expectations": {
-      "title": "À Quoi S'attendre",
+      "title": "À quoi s'attendre",
       "items": [
-        "Recevoir une confirmation dans les 24 heures",
-        "Vérification d'identité peut être requise",
-        "Réponse dans les 45 jours",
+        "Recevez une confirmation dans les 24 heures",
+        "Une vérification d'identité peut être requise",
+        "Réponse sous 45 jours",
         "Gratuit"
       ]
     }
   },
-  "faqs": {
-    "title": "Questions Fréquemment Posées",
-    "questions": [
-      {
-        "question": "Que signifie 'Ne Pas Vendre ou Partager Mes Informations Personnelles' ?",
-        "answer": "Cela signifie que vous pouvez vous désinscrire de la vente ou du partage de vos informations personnelles avec des tiers à des fins publicitaires ou de marketing. Cela inclut le partage de données avec des réseaux publicitaires, des courtiers en données ou d'autres entreprises pour leurs propres fins commerciales."
-      },
-      {
-        "question": "Comment soumettre une demande de droits à la vie privée ?",
-        "answer": "Vous pouvez soumettre une demande via notre Portail des Droits à la Vie Privée. Vous devrez vérifier votre identité, et nous répondrons dans les 45 jours comme requis par la loi. Certaines demandes peuvent prendre plus de temps si nous avons besoin d'informations supplémentaires pour vérifier votre identité."
-      },
-      {
-        "question": "Quelles informations collectez-vous à mon sujet ?",
-        "answer": "Nous collectons des informations que vous fournissez directement (comme votre e-mail et vos informations de paiement), des informations de votre utilisation de notre service (comme l'historique de visualisation et les informations sur l'appareil), et des informations de tiers (comme les partenaires marketing). Cela nous aide à fournir et améliorer notre service."
-      },
-      {
-        "question": "La désinscription affectera-t-elle mon service Netflix ?",
-        "answer": "Non, la désinscription n'affectera pas votre capacité à utiliser Netflix. Vous pourrez toujours diffuser du contenu, gérer votre compte et recevoir des communications liées au service. Cela n'affecte que la façon dont nous utilisons vos données à des fins publicitaires et de marketing."
-      },
-      {
-        "question": "Combien de temps faut-il pour traiter ma demande ?",
-        "answer": "Nous visons à répondre à toutes les demandes dans les 45 jours. Si nous avons besoin de plus de temps (jusqu'à 90 jours au total), nous vous le ferons savoir. Pour les demandes de suppression de compte, nous pouvons prendre jusqu'à 30 jours pour compléter la suppression après vérification."
-      }
-    ]
-  },
   "additionalResources": {
-    "title": "Ressources Supplémentaires",
+    "title": "Ressources supplémentaires",
     "resources": [
       {
-        "title": "Politique de Confidentialité",
+        "title": "Politique de confidentialité",
         "description": "En savoir plus sur la façon dont nous collectons, utilisons et protégeons vos informations.",
-        "link": "Lire la Politique →"
+        "link": "Lire la politique →"
       },
       {
-        "title": "Préférences de Cookies",
-        "description": "Contrôlez comment nous utilisons les cookies et technologies similaires.",
-        "link": "Gérer les Cookies →"
+        "title": "Préférences en matière de cookies",
+        "description": "Contrôlez comment nous utilisons les cookies et les technologies similaires.",
+        "link": "Gérer les cookies →"
       },
       {
-        "title": "Centre de Sécurité",
+        "title": "Centre de sécurité",
         "description": "Informations sur nos pratiques de sécurité et la protection des comptes.",
-        "link": "En Savoir Plus →"
+        "link": "En savoir plus →"
       }
     ]
   },
   "contactSupport": {
-    "title": "Besoin d'Aide ?",
-    "subtitle": "Notre équipe de confidentialité est là pour vous aider avec toutes vos questions sur vos droits à la vie privée.",
+    "title": "Besoin d'aide ?",
+    "subtitle": "Notre équipe de confidentialité est là pour vous aider avec toutes vos questions concernant vos droits en matière de confidentialité.",
     "privacySupport": {
-      "title": "Support de Confidentialité",
+      "title": "Support en matière de confidentialité",
       "email": "E-mail : privacy@netflix.com",
       "phone": "Téléphone : 1-888-638-3549",
       "hours": "Lun-Ven, 9h - 18h PT"
     },
     "generalSupport": {
-      "title": "Support Général",
-      "description": "Visitez notre Centre d'Aide pour une assistance supplémentaire",
-      "link": "Centre d'Aide →"
+      "title": "Support général",
+      "description": "Visitez notre Centre d'aide pour une assistance supplémentaire",
+      "link": "Centre d'aide →"
     },
-    "urgentNote": "Pour les préoccupations urgentes de confidentialité, contactez-nous immédiatement. Nous prenons votre confidentialité au sérieux."
+    "urgentNote": "Pour des préoccupations urgentes en matière de confidentialité, veuillez nous contacter immédiatement. Nous prenons votre confidentialité au sérieux."
+  },
+  "adchoices": {
+    "title": "Ad Choices",
+    "intro": "At Netflix, we want to provide you with control over your advertising experience. This page explains your choices regarding interest-based advertising and how to manage your preferences.",
+    "yourAdvertisingChoices": {
+      "title": "Your Advertising Choices",
+      "choices": [
+        {
+          "title": "Interest-Based Advertising",
+          "description": "We use information about your Netflix viewing history and interactions to show you relevant ads.",
+          "options": [
+            "Opt out of interest-based advertising",
+            "Manage your ad preferences",
+            "Learn more about how ads work"
+          ]
+        },
+        {
+          "title": "Cross-Device Advertising",
+          "description": "We may show you ads across different devices based on your Netflix activity.",
+          "options": [
+            "Opt out of cross-device advertising",
+            "Control device linking",
+            "View connected devices"
+          ]
+        },
+        {
+          "title": "Third-Party Advertising",
+          "description": "We work with advertising partners to deliver relevant ads across the web.",
+          "options": [
+            "Opt out of third-party advertising",
+            "Manage partner relationships",
+            "View privacy choices"
+          ]
+        }
+      ]
+    },
+    "industryOptOutTools": {
+      "title": "Industry Opt-Out Tools",
+      "description": "You can also use these industry-standard tools to manage your advertising preferences across multiple companies:",
+      "tools": [
+        {
+          "name": "Digital Advertising Alliance",
+          "description": "Opt out of interest-based ads from participating companies.",
+          "link": "http://optout.aboutads.info/"
+        },
+        {
+          "name": "Network Advertising Initiative",
+          "description": "Manage advertising preferences from NAI member companies.",
+          "link": "http://optout.networkadvertising.org/"
+        },
+        {
+          "name": "Your Online Choices",
+          "description": "European tool for managing online behavioral advertising.",
+          "link": "http://www.youronlinechoices.com/"
+        }
+      ]
+    },
+    "browserBasedControls": {
+      "title": "Browser-Based Controls",
+      "doNotTrack": {
+        "title": "Do Not Track",
+        "description": "Some browsers offer a \"Do Not Track\" feature that lets you tell websites you don't want your online activity tracked. Netflix currently does not respond to \"Do Not Track\" signals.",
+        "instructions": {
+          "title": "To enable Do Not Track in your browser:",
+          "steps": [
+            "Chrome: Settings → Privacy and security → Send a \"Do Not Track\" request",
+            "Firefox: Settings → Privacy & Security → Send websites a \"Do Not Track\" signal",
+            "Safari: Preferences → Privacy → Send Do Not Track requests",
+            "Edge: Settings → Cookies and site permissions → Send \"Do Not Track\" requests"
+          ]
+        }
+      }
+    },
+    "mobileAdvertising": {
+      "title": "Mobile Advertising",
+      "iosAndroid": {
+        "title": "iOS and Android",
+        "description": "You can limit ad tracking on your mobile device through your device settings:",
+        "platforms": [
+          {
+            "name": "iOS Devices",
+            "instruction": "Settings → Privacy → Tracking → Allow Apps to Request to Track",
+            "note": "Turn off to limit app tracking."
+          },
+          {
+            "name": "Android Devices",
+            "instruction": "Settings → Google → Ads → Opt out of Ads Personalization",
+            "note": "Opt out to limit personalized ads."
+          }
+        ]
+      }
+    },
+    "contact": {
+      "title": "Questions About Your Choices?",
+      "description": "If you have questions about your advertising choices or need assistance managing your preferences, please contact us.",
+      "links": {
+        "privacyPolicy": "View Privacy Policy",
+        "contactSupport": "Contact Support"
+      }
+    },
+    "footer": "Your choices may take up to 30 days to take effect. Some advertising may still appear based on contextual information.",
+    "visitTool": "Visit Tool",
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Find answers to common questions about Netflix. Can't find what you're looking for? <a href=\"/contactus\" class=\"text-blue-400 underline\">Contact our support team</a>.",
+      "categories": [
+        {
+          "title": "Getting Started",
+          "questions": [
+            {
+              "question": "How do I sign up for Netflix?",
+              "answer": "To sign up for Netflix, visit our website and click on the 'Sign Up' button. Choose your plan, enter your email and create a password. You can start watching immediately after signing up."
+            },
+            {
+              "question": "What plans does Netflix offer?",
+              "answer": "Netflix offers three plans: Basic ($8.99/month), Standard ($13.49/month), and Premium ($17.99/month). Each plan allows streaming on different numbers of devices simultaneously."
+            },
+            {
+              "question": "How do I cancel my Netflix subscription?",
+              "answer": "You can cancel your subscription at any time. Go to your Account page, click on 'Cancel Membership' under Membership & Billing, and follow the instructions."
+            }
+          ]
+        },
+        {
+          "title": "Billing & Payments",
+          "questions": [
+            {
+              "question": "When will I be charged for my Netflix subscription?",
+              "answer": "You'll be charged at the beginning of your billing cycle. For new members, this is the date you signed up. You can check your next billing date in your Account settings."
+            },
+            {
+              "question": "How do I update my payment method?",
+              "answer": "Go to your Account page and click on 'Update payment info' under Membership & Billing. You can add a new payment method or update your existing one."
+            },
+            {
+              "question": "Can I get a refund?",
+              "answer": "Refunds are not available for Netflix subscriptions. However, you can cancel your membership at any time to stop future charges."
+            }
+          ]
+        },
+        {
+          "title": "Streaming & Technical",
+          "questions": [
+            {
+              "question": "How many devices can I watch Netflix on at once?",
+              "answer": "This depends on your plan: Basic (1 device), Standard (2 devices), Premium (4 devices). You can watch on any supported device with internet."
+            },
+            {
+              "question": "Why is Netflix not working on my device?",
+              "answer": "Try restarting your device, checking your internet connection, or updating the Netflix app. If issues persist, visit our Help Center for device-specific troubleshooting."
+            },
+            {
+              "question": "Can I download content to watch offline?",
+              "answer": "Yes, you can download select TV shows and movies to watch offline on supported devices. Look for the download icon next to the title."
+            }
+          ]
+        },
+        {
+          "title": "Account & Profiles",
+          "questions": [
+            {
+              "question": "How do I create profiles for different family members?",
+              "answer": "Go to your Account page and click on 'Manage Profiles' under Profile & Parental Controls. You can create up to 5 profiles per account."
+            },
+            {
+              "question": "How do I change my email address?",
+              "answer": "Visit your Account page and click on 'Change email' under Membership & Billing. You'll need to verify your new email address."
+            },
+            {
+              "question": "Can I share my Netflix account with others?",
+              "answer": "Netflix accounts are for personal use only. Sharing account details violates our Terms of Use. Each household should have their own account."
+            }
+          ]
+        },
+        {
+          "title": "Content & Recommendations",
+          "questions": [
+            {
+              "question": "How does Netflix recommend content?",
+              "answer": "Our recommendation system uses your viewing history, ratings, and preferences to suggest content you'll enjoy. The more you watch, the better our recommendations become."
+            },
+            {
+              "question": "Why can't I find a specific movie or show?",
+              "answer": "Content availability varies by region due to licensing agreements. Some titles may not be available in your country, or they may have been removed from our catalog."
+            },
+            {
+              "question": "How do I rate content on Netflix?",
+              "answer": "You can rate titles by hovering over them and clicking the thumbs up or thumbs down icon. This helps us improve our recommendations for you."
+            }
+          ]
+        }
+      ],
+      "helpSection": {
+        "title": "Still Need Help?",
+        "description": "If you couldn't find the answer to your question, our support team is here to help.",
+        "helpCenterButton": "Visit Help Center",
+        "contactButton": "Contact Support"
+      }
+    }
+  },
+  "contactus": {
+    "title": "Contactez-nous",
+    "getInTouch": {
+      "title": "Entrer en contact",
+      "description": "Nous sommes ici pour vous aider ! Que vous ayez des questions sur votre compte, besoin d'une assistance technique, ou souhaitiez faire part de vos commentaires, notre équipe est prête à vous assister."
+    },
+    "customerSupport": {
+      "title": "Service client",
+      "description": "Pour obtenir de l'aide concernant votre compte, la facturation ou des problèmes techniques :",
+      "phone": "1-866-579-7172",
+      "hours": "24/7",
+      "email": "support@netflix.com"
+    },
+    "businessInquiries": {
+      "title": "Demandes commerciales",
+      "description": "Pour des opportunités de partenariat, des demandes de presse, ou des questions d'ordre commercial :",
+      "email": "business@netflix.com",
+      "phone": "1-408-540-3700"
+    },
+    "mailingAddress": {
+      "title": "Adresse postale",
+      "address": "Netflix, Inc.\nÀ l'attention du service client\n100 Winchester Circle\nLos Gatos, CA 95032\nÉtats-Unis"
+    },
+    "internationalOffices": {
+      "title": "Bureaux internationaux",
+      "description": "Netflix est présent dans de nombreux pays à travers le monde. Pour une assistance spécifique à votre région, veuillez visiter notre Centre d'aide et sélectionner votre emplacement."
+    },
+    "socialMedia": {
+      "title": "Médias sociaux",
+      "description": "Suivez-nous sur les réseaux sociaux pour les dernières mises à jour et annonces :",
+      "links": [
+        "Twitter",
+        "Facebook",
+        "Instagram"
+      ]
+    },
+    "helpCenter": {
+      "title": "Centre d'aide",
+      "description": "Avant de nous contacter, vous pourriez trouver des réponses à vos questions dans notre Centre d'aide complet. Recherchez des sujets ou parcourez par catégorie pour trouver les informations dont vous avez besoin.",
+      "button": "Visiter le Centre d'aide"
+    }
+  },
+  "cookiepreferences": {
+    "title": "Préférences en matière de cookies",
+    "whatAreCookies": {
+      "title": "Qu'est-ce que les cookies ?",
+      "description": "Les cookies sont de petits fichiers texte qui sont stockés sur votre appareil lorsque vous visitez notre site Web. Ils nous aident à vous fournir une meilleure expérience de navigation en mémorisant vos préférences et en comprenant comment vous utilisez notre site."
+    },
+    "typesOfCookies": {
+      "title": "Types de cookies que nous utilisons",
+      "essential": {
+        "title": "Cookies essentiels",
+        "description": "Ces cookies sont nécessaires au fonctionnement du site Web et ne peuvent pas être désactivés dans nos systèmes. Ils sont généralement uniquement définis en réponse à des actions de votre part qui correspondent à une demande de services.",
+        "label": "Toujours actifs"
+      },
+      "performance": {
+        "title": "Cookies de performance",
+        "description": "Ces cookies nous permettent de compter les visites et les sources de trafic afin que nous puissions mesurer et améliorer les performances de notre site.",
+        "label": "Autoriser les cookies de performance"
+      },
+      "functional": {
+        "title": "Cookies fonctionnels",
+        "description": "Ces cookies permettent au site Web de fournir des fonctionnalités et une personnalisation améliorées.",
+        "label": "Autoriser les cookies fonctionnels"
+      },
+      "targeting": {
+        "title": "Cookies de ciblage",
+        "description": "Ces cookies peuvent être définis sur notre site par nos partenaires publicitaires pour établir un profil de vos intérêts.",
+        "label": "Autoriser les cookies de ciblage"
+      }
+    },
+    "managingPreferences": {
+      "title": "Gestion de vos préférences en matière de cookies",
+      "description": "Vous pouvez modifier vos préférences en matière de cookies à tout moment en ajustant les paramètres ci-dessus. Veuillez noter que la désactivation de certains types de cookies peut avoir un impact sur votre expérience sur notre site Web.",
+      "button": "Enregistrer les préférences"
+    },
+    "moreInformation": {
+      "title": "Plus d'informations",
+      "description": "Pour plus d'informations sur la façon dont nous utilisons les cookies et vos droits en matière de confidentialité, veuillez visiter notre Politique de confidentialité.",
+      "lastUpdated": "Dernière mise à jour : décembre 2024"
+    }
+  },
+  "corporateinformation": {
+    "hero": {
+      "title": "Informations sur l'entreprise",
+      "description": "Découvrez la mission, le leadership, les valeurs et l'évolution de Netflix, de la location de DVD à leader mondial du streaming."
+    },
+    "companyOverview": {
+      "title": "Aperçu de l'entreprise",
+      "stats": {
+        "founded": {
+          "label": "Fondé",
+          "value": "1997"
+        },
+        "headquarters": {
+          "label": "Siège social",
+          "value": "Los Gatos, Californie, États-Unis"
+        },
+        "employees": {
+          "label": "Employés",
+          "value": "12 800+"
+        },
+        "offices": {
+          "label": "Bureaux mondiaux",
+          "value": "Bureaux dans 27 pays"
+        },
+        "content": {
+          "label": "Bibliothèque de contenu",
+          "value": "Plus de 17 000 titres en plus de 40 langues"
+        },
+        "mission": {
+          "label": "Mission",
+          "value": "Divertir le monde"
+        }
+      }
+    },
+    "leadership": {
+      "title": "Équipe dirigeante",
+      "team": [
+        {
+          "name": "Reed Hastings",
+          "title": "Co-fondateur & Co-CEO",
+          "bio": "Reed Hastings a cofondé Netflix en 1997 et est PDG depuis 1998. Il a précédemment fondé Pure Software, qui a été acquise par Rational Software en 1997."
+        },
+        {
+          "name": "Ted Sarandos",
+          "title": "Co-CEO & Directeur du contenu",
+          "bio": "Ted Sarandos supervise la stratégie de contenu et les opérations mondiales de Netflix. Il a rejoint Netflix en 2000 et a joué un rôle déterminant dans la construction de la bibliothèque de contenu original de Netflix."
+        },
+        {
+          "name": "Greg Peters",
+          "title": "Directeur des opérations",
+          "bio": "Greg Peters supervise le produit, l'ingénierie, le marketing, les communications et d'autres fonctions opérationnelles de Netflix. Il a rejoint Netflix en 2011."
+        },
+        {
+          "name": "Spencer Neumann",
+          "title": "Directeur financier",
+          "bio": "Spencer Neumann supervise les opérations et la stratégie financières de Netflix. Il a rejoint Netflix en 2010 et a occupé divers postes de direction dans les domaines des finances et du produit."
+        }
+      ]
+    },
+    "values": {
+      "title": "Nos valeurs",
+      "list": [
+        {
+          "title": "Jugement",
+          "description": "Nous prenons des décisions judicieuses malgré l'ambiguïté.",
+          "icon": "🧠"
+        },
+        {
+          "title": "Communication",
+          "description": "Nous sommes honnêtes, respectueux et collaboratifs.",
+          "icon": "💬"
+        },
+        {
+          "title": "Impact",
+          "description": "Nous nous concentrons sur les résultats qui comptent.",
+          "icon": "🎯"
+        },
+        {
+          "title": "Curiosité",
+          "description": "Nous apprenons rapidement et avec enthousiasme.",
+          "icon": "🔍"
+        },
+        {
+          "title": "Courage",
+          "description": "Nous prenons des risques et remettons en question le statu quo.",
+          "icon": "🦁"
+        },
+        {
+          "title": "Passion",
+          "description": "Nous aimons notre travail et tenons profondément à nos membres.",
+          "icon": "❤️"
+        },
+        {
+          "title": "Altruisme",
+          "description": "Nous valorisons le succès des autres autant que le nôtre.",
+          "icon": "🤝"
+        },
+        {
+          "title": "Innovation",
+          "description": "Nous réinventons le divertissement pour l'avenir.",
+          "icon": "💡"
+        },
+        {
+          "title": "Inclusion",
+          "description": "Nous embrassons des perspectives et des expériences diverses.",
+          "icon": "🌍"
+        }
+      ]
+    },
+    "history": {
+      "title": "Histoire de l'entreprise",
+      "milestones": [
+        {
+          "year": "1997",
+          "event": "Netflix fondé par Reed Hastings et Marc Randolph"
+        },
+        {
+          "year": "1999",
+          "event": "Introduction en bourse sur le NASDAQ (NFLX)"
+        },
+        {
+          "year": "2007",
+          "event": "Lancement du service de streaming"
+        },
+        {
+          "year": "2010",
+          "event": "Début de l'expansion internationale"
+        },
+        {
+          "year": "2013",
+          "event": "Première série originale produite (House of Cards)"
+        },
+        {
+          "year": "2016",
+          "event": "La base d'abonnés mondiale atteint 100 millions"
+        },
+        {
+          "year": "2020",
+          "event": "La production de contenu augmente pendant la pandémie"
+        },
+        {
+          "year": "2022",
+          "event": "Lancement du service de jeux"
+        }
+      ]
+    },
+    "diversity": {
+      "title": "Diversité et inclusion",
+      "commitment": {
+        "title": "Notre engagement",
+        "description": "Chez Netflix, nous croyons que des perspectives diverses nous rendent plus forts. Nous nous engageons à favoriser un environnement de travail inclusif où chacun peut s'épanouir.",
+        "items": [
+          "Groupes de ressources pour les employés",
+          "Pratiques de recrutement inclusives",
+          "Programmes de formation à la diversité",
+          "Politiques d'égalité des chances"
+        ]
+      },
+      "content": {
+        "title": "Diversité du contenu",
+        "description": "Nous nous efforçons de raconter des histoires du monde entier, en mettant en avant des voix et des perspectives diverses dans notre contenu original.",
+        "items": [
+          "Récits mondiaux",
+          "Contenu en langue locale",
+          "Représentation culturelle",
+          "Narrations inclusives"
+        ]
+      }
+    },
+    "contact": {
+      "title": "Contactez-nous",
+      "description": "Vous avez des questions sur Netflix ? Nous serions ravis de vous entendre.",
+      "contacts": [
+        {
+          "title": "Demandes médias",
+          "email": "press@netflix.com"
+        },
+        {
+          "title": "Relations investisseurs",
+          "email": "investor.relations@netflix.com"
+        },
+        {
+          "title": "Demandes générales",
+          "email": "info@netflix.com"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "subtitle": "Trouvez des réponses aux questions courantes sur Netflix. Vous ne trouvez pas ce que vous cherchez ? <a href=\"/contactus\" class=\"text-blue-400 underline\">Contactez notre équipe d'assistance</a>.",
+    "categories": [
+      {
+        "title": "Commencer",
+        "questions": [
+          {
+            "q": "Comment puis-je m'inscrire à Netflix ?",
+            "a": "Pour vous inscrire à Netflix, visitez notre site Web et cliquez sur le bouton 'S'inscrire'. Choisissez votre forfait, entrez votre e-mail et créez un mot de passe. Vous pouvez commencer à regarder immédiatement après vous être inscrit."
+          },
+          {
+            "q": "Quels forfaits Netflix propose-t-il ?",
+            "a": "Netflix propose trois forfaits : Basique (8,99 $/mois), Standard (13,49 $/mois) et Premium (17,99 $/mois). Chaque forfait permet de diffuser sur un nombre différent d'appareils simultanément."
+          },
+          {
+            "q": "Comment annuler mon abonnement Netflix ?",
+            "a": "Vous pouvez annuler votre abonnement à tout moment. Allez sur votre page Compte, cliquez sur 'Annuler l'abonnement' dans la section Abonnement et facturation, et suivez les instructions."
+          }
+        ]
+      },
+      {
+        "title": "Facturation et paiements",
+        "questions": [
+          {
+            "q": "Quand vais-je être facturé pour mon abonnement Netflix ?",
+            "a": "Vous serez facturé au début de votre cycle de facturation. Pour les nouveaux membres, c'est la date à laquelle vous vous êtes inscrit. Vous pouvez vérifier votre prochaine date de facturation dans les paramètres de votre compte."
+          },
+          {
+            "q": "Comment puis-je mettre à jour mon mode de paiement ?",
+            "a": "Allez sur votre page Compte et cliquez sur 'Mettre à jour les informations de paiement' dans la section Abonnement et facturation. Vous pouvez ajouter un nouveau mode de paiement ou mettre à jour votre mode de paiement existant."
+          },
+          {
+            "q": "Puis-je obtenir un remboursement ?",
+            "a": "Les remboursements ne sont pas disponibles pour les abonnements Netflix. Cependant, vous pouvez annuler votre abonnement à tout moment pour arrêter les frais futurs."
+          }
+        ]
+      },
+      {
+        "title": "Diffusion et technique",
+        "questions": [
+          {
+            "q": "Combien d'appareils puis-je regarder Netflix en même temps ?",
+            "a": "Cela dépend de votre forfait : Basique (1 appareil), Standard (2 appareils), Premium (4 appareils). Vous pouvez regarder sur tout appareil compatible avec Internet."
+          },
+          {
+            "q": "Pourquoi Netflix ne fonctionne-t-il pas sur mon appareil ?",
+            "a": "Essayez de redémarrer votre appareil, de vérifier votre connexion Internet ou de mettre à jour l'application Netflix. Si les problèmes persistent, visitez notre Centre d'aide pour des solutions spécifiques à votre appareil."
+          },
+          {
+            "q": "Puis-je télécharger du contenu pour le regarder hors ligne ?",
+            "a": "Oui, vous pouvez télécharger certaines émissions et films pour les regarder hors ligne sur des appareils compatibles. Recherchez l'icône de téléchargement à côté du titre."
+          }
+        ]
+      },
+      {
+        "title": "Compte et profils",
+        "questions": [
+          {
+            "q": "Comment créer des profils pour les différents membres de la famille ?",
+            "a": "Allez sur votre page Compte et cliquez sur 'Gérer les profils' dans la section Profil et contrôles parentaux. Vous pouvez créer jusqu'à 5 profils par compte."
+          },
+          {
+            "q": "Comment puis-je changer mon adresse e-mail ?",
+            "a": "Visitez votre page Compte et cliquez sur 'Changer d'e-mail' dans la section Abonnement et facturation. Vous devrez vérifier votre nouvelle adresse e-mail."
+          },
+          {
+            "q": "Puis-je partager mon compte Netflix avec d'autres personnes ?",
+            "a": "Les comptes Netflix sont réservés à un usage personnel. Le partage des détails du compte viole nos Conditions d'utilisation. Chaque foyer doit avoir son propre compte."
+          }
+        ]
+      },
+      {
+        "title": "Contenu et recommandations",
+        "questions": [
+          {
+            "q": "Comment Netflix recommande-t-il du contenu ?",
+            "a": "Notre système de recommandation utilise votre historique de visionnage, vos évaluations et vos préférences pour suggérer du contenu que vous pourriez aimer. Plus vous regardez, meilleures sont nos recommandations."
+          },
+          {
+            "q": "Pourquoi ne puis-je pas trouver un film ou une émission spécifique ?",
+            "a": "La disponibilité du contenu varie selon les régions en raison des accords de licence. Certains titres peuvent ne pas être disponibles dans votre pays, ou ils peuvent avoir été retirés de notre catalogue."
+          },
+          {
+            "q": "Comment évaluer du contenu sur Netflix ?",
+            "a": "Vous pouvez évaluer les titres en les survolant et en cliquant sur l'icône du pouce vers le haut ou vers le bas. Cela nous aide à améliorer nos recommandations pour vous."
+          }
+        ]
+      }
+    ],
+    "helpSection": {
+      "title": "Besoin d'aide supplémentaire ?",
+      "description": "Si vous n'avez pas trouvé la réponse à votre question, notre équipe d'assistance est là pour vous aider.",
+      "helpCenterButton": "Visiter le Centre d'aide",
+      "contactButton": "Contacter le support"
+    }
+  },
+  "helpcenter": {
+    "hero": {
+      "title": "Centre d'aide",
+      "subtitle": "Trouvez des réponses, obtenez de l'aide et résolvez des problèmes rapidement."
+    },
+    "searchPlaceholder": "Recherchez de l'aide...",
+    "quickActions": [
+      {
+        "title": "Réinitialiser le mot de passe",
+        "description": "Mot de passe oublié ? Réinitialisez-le ici.",
+        "action": "Réinitialiser maintenant"
+      },
+      {
+        "title": "Mettre à jour le paiement",
+        "description": "Modifiez votre mode de paiement ou vos informations de facturation.",
+        "action": "Mettre à jour les informations"
+      },
+      {
+        "title": "Annuler l'abonnement",
+        "description": "Besoin d'annuler ? Nous pouvons vous aider.",
+        "action": "Annuler ici"
+      },
+      {
+        "title": "Contacter le support",
+        "description": "Vous ne trouvez pas ce dont vous avez besoin ? Parlez à notre équipe.",
+        "action": "Obtenir de l'aide"
+      }
+    ],
+    "browseByTopic": {
+      "title": "Parcourir par sujet",
+      "categories": [
+        {
+          "title": "Commencer",
+          "icon": "🚀",
+          "topics": [
+            {
+              "title": "Comment s'inscrire à Netflix",
+              "link": "#"
+            },
+            {
+              "title": "Forfaits et prix",
+              "link": "#"
+            },
+            {
+              "title": "Appareils pris en charge",
+              "link": "#"
+            },
+            {
+              "title": "Télécharger l'application Netflix",
+              "link": "#"
+            }
+          ]
+        },
+        {
+          "title": "Compte et facturation",
+          "icon": "👤",
+          "topics": [
+            {
+              "title": "Mettre à jour le mode de paiement",
+              "link": "#"
+            },
+            {
+              "title": "Changer d'e-mail ou de mot de passe",
+              "link": "#"
+            },
+            {
+              "title": "Annuler l'abonnement",
+              "link": "#"
+            },
+            {
+              "title": "Historique de facturation",
+              "link": "#"
+            }
+          ]
+        },
+        {
+          "title": "Regarder Netflix",
+          "icon": "📺",
+          "topics": [
+            {
+              "title": "Résoudre les problèmes de streaming",
+              "link": "#"
+            },
+            {
+              "title": "Télécharger pour visionnage hors ligne",
+              "link": "#"
+            },
+            {
+              "title": "Gérer les profils",
+              "link": "#"
+            },
+            {
+              "title": "Contrôles parentaux",
+              "link": "#"
+            }
+          ]
+        },
+        {
+          "title": "Dépannage",
+          "icon": "🔧",
+          "topics": [
+            {
+              "title": "Impossible de se connecter",
+              "link": "#"
+            },
+            {
+              "title": "Problèmes de qualité vidéo",
+              "link": "#"
+            },
+            {
+              "title": "Problèmes audio",
+              "link": "#"
+            },
+            {
+              "title": "L'application plante ou se fige",
+              "link": "#"
+            }
+          ]
+        },
+        {
+          "title": "Cartes-cadeaux et paiements",
+          "icon": "🎁",
+          "topics": [
+            {
+              "title": "Utiliser une carte-cadeau",
+              "link": "/redeemgiftcards"
+            },
+            {
+              "title": "Acheter des cartes-cadeaux",
+              "link": "/buygiftcards"
+            },
+            {
+              "title": "Paiement refusé",
+              "link": "#"
+            },
+            {
+              "title": "Demandes de remboursement",
+              "link": "#"
+            }
+          ]
+        },
+        {
+          "title": "Appareils et logiciels",
+          "icon": "📱",
+          "topics": [
+            {
+              "title": "Appareils compatibles",
+              "link": "#"
+            },
+            {
+              "title": "Mettre à jour l'application Netflix",
+              "link": "#"
+            },
+            {
+              "title": "Connecter à la TV",
+              "link": "#"
+            },
+            {
+              "title": "Compatibilité des navigateurs",
+              "link": "#"
+            }
+          ]
+        }
+      ]
+    },
+    "popularArticles": {
+      "title": "Articles populaires",
+      "articles": [
+        {
+          "title": "Comment changer votre mot de passe Netflix",
+          "description": "Apprenez à mettre à jour votre mot de passe pour une meilleure sécurité de votre compte.",
+          "link": "Lire l'article →"
+        },
+        {
+          "title": "Réparer Netflix qui ne fonctionne pas sur votre appareil",
+          "description": "Étapes de dépannage courantes pour les problèmes de streaming.",
+          "link": "Lire l'article →"
+        },
+        {
+          "title": "Comprendre les forfaits et les prix Netflix",
+          "description": "Comparez nos forfaits et trouvez celui qui vous convient.",
+          "link": "Lire l'article →"
+        }
+      ]
+    },
+    "contactSupport": {
+      "title": "Besoin d'aide supplémentaire ?",
+      "subtitle": "Notre équipe d'assistance est disponible 24/7 pour vous aider avec toutes vos questions ou problèmes.",
+      "supportOptions": [
+        {
+          "title": "Chat en direct",
+          "description": "Discutez avec notre équipe d'assistance en temps réel.",
+          "action": "Démarrer le chat"
+        },
+        {
+          "title": "Assistance par e-mail",
+          "description": "Envoyez-nous un e-mail et nous vous répondrons dans les 24 heures.",
+          "action": "Envoyer un e-mail"
+        },
+        {
+          "title": "Assistance téléphonique",
+          "description": "Appelez-nous pour une assistance immédiate.",
+          "action": "Appeler maintenant"
+        }
+      ],
+      "footer": "Pour un service plus rapide, ayez votre e-mail de compte et les détails de votre abonnement à portée de main."
+    }
+  },
+  "investorrelations": {
+    "hero": {
+      "title": "Relations avec les investisseurs",
+      "subtitle": "Découvrez la performance financière de Netflix, sa gouvernance d'entreprise et ses opportunités d'investissement."
+    },
+    "stockInformation": {
+      "title": "Informations sur l'action",
+      "symbol": "NFLX",
+      "exchange": "NASDAQ",
+      "currentPrice": "$450.25",
+      "change": "+2.15 (+0.48%)",
+      "marketCap": "$195.2B",
+      "weekHigh": "52 Week High: $486.12",
+      "weekLow": "52 Week Low: $274.73"
+    },
+    "financialReports": {
+      "title": "Rapports financiers",
+      "reports": [
+        {
+          "year": "2024",
+          "quarter": "T1",
+          "type": "Communiqué de résultats",
+          "date": "16 avril 2024"
+        },
+        {
+          "year": "2023",
+          "quarter": "T4",
+          "type": "Rapport annuel",
+          "date": "25 janvier 2024"
+        },
+        {
+          "year": "2023",
+          "quarter": "T3",
+          "type": "Communiqué de résultats",
+          "date": "18 octobre 2023"
+        },
+        {
+          "year": "2023",
+          "quarter": "T2",
+          "type": "Communiqué de résultats",
+          "date": "19 juillet 2023"
+        }
+      ],
+      "downloadButton": "Télécharger"
+    },
+    "upcomingEvents": {
+      "title": "Événements à venir",
+      "events": [
+        {
+          "date": "18 juillet 2024",
+          "event": "Appel sur les résultats du T2 2024",
+          "time": "14h00 PT",
+          "action": "Ajouter au calendrier"
+        },
+        {
+          "date": "17 octobre 2024",
+          "event": "Appel sur les résultats du T3 2024",
+          "time": "14h00 PT",
+          "action": "Ajouter au calendrier"
+        },
+        {
+          "date": "23 janvier 2025",
+          "event": "Appel sur les résultats du T4 2024",
+          "time": "14h00 PT",
+          "action": "Ajouter au calendrier"
+        }
+      ]
+    },
+    "corporateGovernance": {
+      "title": "Gouvernance d'entreprise",
+      "sections": [
+        {
+          "title": "Conseil d'administration",
+          "description": "Rencontrez nos administrateurs expérimentés qui guident la direction stratégique de Netflix.",
+          "link": "Voir le conseil →"
+        },
+        {
+          "title": "Équipe dirigeante",
+          "description": "Découvrez notre équipe de direction et ses rôles dans l'innovation.",
+          "link": "Voir l'équipe →"
+        },
+        {
+          "title": "Documents de gouvernance",
+          "description": "Accédez à nos statuts, chartes de comité et autres documents de gouvernance.",
+          "link": "Voir les documents →"
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contacter les relations investisseurs",
+      "description": "Pour les demandes des investisseurs, veuillez contacter notre équipe.",
+      "email": "investor.relations@netflix.com",
+      "phone": "1-408-540-3700",
+      "pressNote": "Pour les demandes de presse, veuillez visiter notre Centre de médias."
+    }
+  },
+  "jobs": {
+    "hero": {
+      "title": "Rejoignez l'équipe Netflix",
+      "subtitle": "Aidez-nous à divertir le monde. Nous recherchons des personnes créatives et passionnées pour rejoindre notre mission.",
+      "button": "Voir les postes ouverts"
+    },
+    "whyNetflix": {
+      "title": "Pourquoi Netflix ?",
+      "reasons": [
+        {
+          "title": "Innovation avant tout",
+          "description": "Nous repoussons les limites et accueillons le changement. Chez Netflix, vous travaillerez sur des technologies de pointe et des projets créatifs qui atteignent des millions de personnes dans le monde entier."
+        },
+        {
+          "title": "Liberté et responsabilité",
+          "description": "Nous faisons confiance à nos employés pour prendre des décisions et assumer des responsabilités. Avec une grande liberté vient une grande responsabilité, et nous fournissons le soutien dont vous avez besoin pour réussir."
+        },
+        {
+          "title": "Culture inclusive",
+          "description": "La diversité stimule notre créativité. Nous favorisons un environnement inclusif où chacun peut être lui-même au travail et contribuer avec ses perspectives uniques."
+        },
+        {
+          "title": "Impact à grande échelle",
+          "description": "Votre travail a de l'importance. Que vous développiez de nouvelles fonctionnalités ou souteniez nos opérations, vous verrez l'impact direct de vos contributions sur notre audience mondiale."
+        }
+      ]
+    },
+    "openPositions": {
+      "title": "Postes ouverts",
+      "categories": [
+        {
+          "title": "Ingénierie",
+          "description": "Construisez l'avenir du divertissement avec nos équipes d'ingénierie.",
+          "jobs": [
+            {
+              "title": "Ingénieur logiciel senior",
+              "location": "Los Gatos, CA",
+              "type": "Temps plein",
+              "action": "Postuler maintenant"
+            },
+            {
+              "title": "Développeur Frontend",
+              "location": "Télétravail",
+              "type": "Temps plein",
+              "action": "Postuler maintenant"
+            },
+            {
+              "title": "Ingénieur Backend",
+              "location": "Los Angeles, CA",
+              "type": "Temps plein",
+              "action": "Postuler maintenant"
+            },
+            {
+              "title": "Ingénieur DevOps",
+              "location": "New York, NY",
+              "type": "Temps plein",
+              "action": "Postuler maintenant"
+            }
+          ]
+        },
+        {
+          "title": "Produit et design",
+          "description": "Façonnez l'expérience utilisateur et la stratégie produit.",
+          "jobs": [
+            {
+              "title": "Chef de produit",
+              "location": "Los Gatos, CA",
+              "type": "Temps plein",
+              "action": "Postuler maintenant"
+            },
+            {
+              "title": "Designer UX",
+              "location": "Télétravail",
+              "type": "Temps plein",
+              "action": "Postuler maintenant"
+            },
+            {
+              "title": "Designer UI",
+              "location": "Los Angeles, CA",
+              "type": "Temps plein",
+              "action": "Postuler maintenant"
+            },
+            {
+              "title": "Analyste de données",
+              "location": "New York, NY",
+              "type": "Temps plein",
+              "action": "Postuler maintenant"
+            }
+          ]
+        },
+        {
+          "title": "Contenu et marketing",
+          "description": "Racontez des histoires et connectez-vous avec des audiences du monde entier.",
+          "jobs": [
+            {
+              "title": "Stratégiste de contenu",
+              "location": "Los Gatos, CA",
+              "type": "Temps plein",
+              "action": "Postuler maintenant"
+            },
+            {
+              "title": "Responsable marketing",
+              "location": "Télétravail",
+              "type": "Temps plein",
+              "action": "Postuler maintenant"
+            },
+            {
+              "title": "Spécialiste des médias sociaux",
+              "location": "Los Angeles, CA",
+              "type": "Temps plein",
+              "action": "Postuler maintenant"
+            },
+            {
+              "title": "Responsable des relations publiques",
+              "location": "New York, NY",
+              "type": "Temps plein",
+              "action": "Postuler maintenant"
+            }
+          ]
+        },
+        {
+          "title": "Opérations et support",
+          "description": "Assurez le bon fonctionnement de nos opérations mondiales.",
+          "jobs": [
+            {
+              "title": "Responsable du support client",
+              "location": "Los Gatos, CA",
+              "type": "Temps plein",
+              "action": "Postuler maintenant"
+            },
+            {
+              "title": "Responsable des opérations",
+              "location": "Télétravail",
+              "type": "Temps plein",
+              "action": "Postuler maintenant"
+            },
+            {
+              "title": "Spécialiste de l'acquisition de talents",
+              "location": "Los Angeles, CA",
+              "type": "Temps plein",
+              "action": "Postuler maintenant"
+            },
+            {
+              "title": "Analyste financier",
+              "location": "New York, NY",
+              "type": "Temps plein",
+              "action": "Postuler maintenant"
+            }
+          ]
+        }
+      ]
+    },
+    "benefits": {
+      "title": "Avantages et bénéfices",
+      "list": [
+        "Salaire et actions compétitifs",
+        "Avantages santé complets",
+        "Horaires de travail flexibles",
+        "Opportunités de développement professionnel",
+        "Repas et collations fournis",
+        "Bureaux équipés d'installations à la pointe de la technologie"
+      ]
+    },
+    "applicationProcess": {
+      "title": "Notre processus de candidature",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Postuler",
+          "description": "Soumettez votre candidature et votre CV"
+        },
+        {
+          "number": "2",
+          "title": "Examen",
+          "description": "Notre équipe examine votre candidature"
+        },
+        {
+          "number": "3",
+          "title": "Entretien",
+          "description": "Plusieurs rounds d'entretiens"
+        },
+        {
+          "number": "4",
+          "title": "Offre",
+          "description": "Recevez et acceptez votre offre"
+        }
+      ]
+    },
+    "callToAction": {
+      "title": "Prêt à nous rejoindre ?",
+      "description": "Explorez nos postes ouverts et commencez votre parcours avec Netflix.",
+      "buttons": [
+        "Parcourir les emplois",
+        "En savoir plus"
+      ]
+    }
+  },
+  "legalnotices": {
+    "title": "Mentions légales",
+    "copyrightNotice": {
+      "title": "Avis de copyright",
+      "description": "Tout le contenu de ce site Web, y compris les textes, graphiques, logos, images et logiciels, est la propriété de Netflix, Inc. ou de ses fournisseurs de contenu et est protégé par les lois américaines et internationales sur le copyright.",
+      "trademarks": "Le nom et le logo de Netflix sont des marques déposées de Netflix, Inc. Toutes les autres marques apparaissant sur ce site Web sont la propriété de leurs propriétaires respectifs."
+    },
+    "termsOfService": {
+      "title": "Conditions d'utilisation",
+      "description": "En accédant et en utilisant ce site Web, vous acceptez d'être lié par les termes et dispositions de cet accord. Si vous n'acceptez pas de vous conformer aux termes ci-dessus, veuillez ne pas utiliser ce service."
+    },
+    "privacyPolicy": {
+      "title": "Politique de confidentialité",
+      "description": "Votre vie privée est très importante pour nous. En conséquence, nous avons élaboré cette politique afin que vous puissiez comprendre comment nous collectons, utilisons, communiquons et divulguons et utilisons des informations personnelles."
+    },
+    "disclaimer": {
+      "title": "Avertissement",
+      "description": "Les informations contenues dans ce site Web sont fournies à titre d'information générale uniquement. Les informations sont fournies par Netflix, Inc. et bien que nous nous efforçons de maintenir les informations à jour et correctes, nous ne faisons aucune représentation ou garantie d'aucune sorte, expresse ou implicite, quant à l'exhaustivité, l'exactitude, la fiabilité, l'adéquation ou la disponibilité par rapport au site Web ou aux informations, produits, services ou graphiques connexes contenus sur le site Web à des fins quelconques."
+    },
+    "contactInformation": {
+      "title": "Informations de contact",
+      "description": "Pour les demandes juridiques, veuillez nous contacter à :",
+      "address": {
+        "company": "Netflix, Inc.",
+        "street": "100 Winchester Circle",
+        "city": "Los Gatos, CA 95032",
+        "country": "États-Unis"
+      }
+    },
+    "lastUpdated": "Dernière mise à jour : décembre 2024"
+  },
+  "mediacenter": {
+    "hero": {
+      "title": "Centre de médias Netflix",
+      "subtitle": "Votre source d'actualités, de communiqués de presse, d'images et d'informations sur l'entreprise Netflix."
+    },
+    "stats": [
+      {
+        "number": "270M+",
+        "label": "Membres dans le monde"
+      },
+      {
+        "number": "190+",
+        "label": "Pays"
+      },
+      {
+        "number": "15,000+",
+        "label": "Titres dans notre catalogue"
+      },
+      {
+        "number": "1,000+",
+        "label": "Heures de contenu original"
+      }
+    ],
+    "pressReleases": {
+      "title": "Derniers communiqués de presse",
+      "releases": [
+        {
+          "title": "Netflix annonce ses résultats du T4 2024",
+          "date": "15 janvier 2025",
+          "summary": "Netflix annonce une croissance record du nombre d'abonnés et une solide performance financière pour le T4 2024.",
+          "action": "En savoir plus"
+        },
+        {
+          "title": "La saison 5 de l'original Netflix 'Stranger Things' est disponible",
+          "date": "10 janvier 2025",
+          "summary": "La très attendue dernière saison de Stranger Things est maintenant disponible dans le monde entier.",
+          "action": "En savoir plus"
+        },
+        {
+          "title": "Netflix élargit son partenariat de contenu avec les grands studios",
+          "date": "20 décembre 2024",
+          "summary": "Netflix annonce des accords pluriannuels pour proposer du contenu exclusif de grandes sociétés de production.",
+          "action": "En savoir plus"
+        },
+        {
+          "title": "Netflix lance un nouveau format de contenu interactif",
+          "date": "15 décembre 2024",
+          "summary": "Introduction d'une narration de style 'Choisissez votre propre aventure' pour certains originaux Netflix.",
+          "action": "En savoir plus"
+        }
+      ],
+      "viewAllButton": "Voir tous les communiqués de presse"
+    },
+    "pressImages": {
+      "title": "Images pour la presse",
+      "images": [
+        {
+          "alt": "Série originale Netflix",
+          "caption": "Dans les coulisses de notre dernière série",
+          "action": "Télécharger en haute résolution"
+        },
+        {
+          "alt": "Cérémonie de remise de prix",
+          "caption": "Netflix aux Emmy Awards 2024",
+          "action": "Télécharger en haute résolution"
+        },
+        {
+          "alt": "Création de contenu",
+          "caption": "Nos équipes de production au travail",
+          "action": "Télécharger en haute résolution"
+        },
+        {
+          "alt": "Événement mondial",
+          "caption": "Moments forts de l'événement Tudum de Netflix",
+          "action": "Télécharger en haute résolution"
+        }
+      ],
+      "viewGalleryButton": "Voir la galerie d'images"
+    },
+    "contact": {
+      "title": "Demandes médias",
+      "description": "Pour les demandes de presse, veuillez contacter notre équipe des relations médias.",
+      "contacts": {
+        "general": {
+          "label": "Demandes générales :",
+          "value": "press@netflix.com"
+        },
+        "phone": {
+          "label": "Téléphone :",
+          "value": "1-408-540-3700"
+        },
+        "address": {
+          "label": "Adresse :",
+          "value": "100 Winchester Circle, Los Gatos, CA 95032"
+        }
+      },
+      "socialMedia": {
+        "description": "Suivez Netflix pour les dernières nouvelles et mises à jour :",
+        "links": [
+          "Twitter",
+          "Facebook",
+          "Instagram"
+        ]
+      },
+      "contactButton": "Contacter l'équipe presse"
+    }
+  },
+  "termsofuse": {
+    "title": "Conditions d'utilisation",
+    "sections": [
+      {
+        "title": "Acceptation des conditions",
+        "content": "En accédant et en utilisant Netflix, vous acceptez d'être lié par les termes et dispositions de cet accord. De plus, en utilisant ces services particuliers, vous serez soumis à toutes les directives ou règles affichées applicables à ces services."
+      },
+      {
+        "title": "Description du service",
+        "content": "Netflix fournit aux utilisateurs un accès à une riche collection de ressources en ligne, y compris divers outils de communication, forums, services de shopping, services de recherche et contenu personnalisé. Sauf indication contraire explicite, toute nouvelle fonctionnalité qui augmente ou améliore le service actuel sera soumise aux Conditions de service."
+      },
+      {
+        "title": "Comptes utilisateurs",
+        "content": "Afin d'utiliser certaines fonctionnalités du service, vous devez vous enregistrer pour obtenir un compte. Lorsque vous vous enregistrez, vous acceptez de fournir des informations précises, actuelles et complètes vous concernant et de mettre à jour ces informations pour les maintenir précises, actuelles et complètes."
+      },
+      {
+        "title": "Politique de confidentialité",
+        "content": "Votre vie privée est très importante pour nous. En conséquence, nous avons élaboré cette politique afin que vous puissiez comprendre comment nous collectons, utilisons, communiquons et divulguons et utilisons des informations personnelles. Notre politique de confidentialité est incorporée dans ces termes par référence."
+      },
+      {
+        "title": "Contenu et comportement",
+        "content": "Vous comprenez que toutes les informations, données, textes, logiciels, musiques, sons, photographies, graphiques, vidéos, messages ou autres matériaux (\"Contenu\"), qu'ils soient publiquement affichés ou transmis en privé, sont sous la seule responsabilité de la personne dont provient ce Contenu.",
+        "list": [
+          "Télécharger, publier, envoyer par e-mail ou transmettre de toute autre manière tout Contenu qui est illégal, nuisible, menaçant, abusif, harcelant, diffamatoire, vulgaire, obscène, calomnieux, pornographique, indécent, ou qui enfreint les droits de propriété intellectuelle de quelqu'un d'autre",
+          "Impersonate any person or entity or falsely state or otherwise misrepresent your affiliation with a person or entity",
+          "Upload, post, email or otherwise transmit any Content that you do not have a right to transmit under any law or under contractual or fiduciary relationships"
+        ]
+      },
+      {
+        "title": "Termination",
+        "content": "You agree that Netflix may, under certain circumstances and without prior notice, immediately terminate your account and access to the Service. Cause for such termination shall include, but not be limited to:",
+        "list": [
+          "Breaches or violations of the Terms of Service or other incorporated agreements or guidelines",
+          "Requests by law enforcement or other government agencies",
+          "Discontinuation or material modification to the Service (or any part thereof)",
+          "Unexpected technical or security issues or problems"
+        ]
+      },
+      {
+        "title": "Disclaimer of Warranties",
+        "content": "You expressly understand and agree that:",
+        "list": [
+          "Your use of the service is at your sole risk. The service is provided on an \"as is\" and \"as available\" basis",
+          "Netflix expressly disclaims all warranties of any kind, whether express or implied, including, but not limited to the implied warranties of merchantability, fitness for a particular purpose and non-infringement"
+        ]
+      }
+    ],
+    "contact": {
+      "title": "Contact Information",
+      "intro": "If you have any questions about these Terms of Service, please contact us at:",
+      "address": {
+        "company": "Netflix, Inc.",
+        "street": "100 Winchester Circle",
+        "city": "Los Gatos, CA 95032",
+        "country": "United States",
+        "email": "terms@netflix.com"
+      },
+      "lastUpdated": "Last updated: December 2024"
+    }
+  },
+  "waystowatch": {
+    "hero": {
+      "title": "Ways to Watch",
+      "subtitle": "Enjoy Netflix on any device, anywhere, anytime. Choose from hundreds of supported devices and platforms."
+    },
+    "devices": [
+      {
+        "name": "Smart TVs",
+        "icon": "📺",
+        "description": "Samsung, LG, Sony, and more",
+        "popular": [
+          "Samsung Smart TV",
+          "LG Smart TV",
+          "Sony Android TV",
+          "Vizio Smart TV"
+        ]
+      },
+      {
+        "name": "Game Consoles",
+        "icon": "🎮",
+        "description": "PlayStation, Xbox, and Nintendo",
+        "popular": [
+          "PlayStation 4",
+          "PlayStation 5",
+          "Xbox One",
+          "Xbox Series X/S",
+          "Nintendo Switch"
+        ]
+      },
+      {
+        "name": "Mobile Devices",
+        "icon": "📱",
+        "description": "Phones and tablets",
+        "popular": [
+          "iPhone",
+          "Android Phone",
+          "iPad",
+          "Android Tablet"
+        ]
+      },
+      {
+        "name": "Streaming Devices",
+        "icon": "📺",
+        "description": "Dedicated streaming boxes",
+        "popular": [
+          "Roku",
+          "Amazon Fire TV",
+          "Apple TV",
+          "Chromecast",
+          "Android TV"
+        ]
+      },
+      {
+        "name": "Computers",
+        "icon": "💻",
+        "description": "Laptops and desktops",
+        "popular": [
+          "Windows PC",
+          "Mac",
+          "Chromebook"
+        ]
+      },
+      {
+        "name": "Blu-ray Players",
+        "icon": "💿",
+        "description": "Blu-ray and DVD players",
+        "popular": [
+          "Samsung Blu-ray",
+          "LG Blu-ray",
+          "Sony Blu-ray"
+        ]
+      }
+    ],
+    "platforms": [
+      {
+        "name": "Web Browsers",
+        "description": "Watch on any device with a web browser",
+        "features": [
+          "HD and Ultra HD support",
+          "Multiple profiles",
+          "Download for offline viewing"
+        ]
+      },
+      {
+        "name": "Mobile Apps",
+        "description": "Download the Netflix app for iOS and Android",
+        "features": [
+          "Offline downloads",
+          "Smart recommendations",
+          "Parental controls"
+        ]
+      },
+      {
+        "name": "Smart TV Apps",
+        "description": "Built-in Netflix apps on smart TVs",
+        "features": [
+          "4K Ultra HD",
+          "HDR support",
+          "Voice control"
+        ]
+      },
+      {
+        "name": "Gaming Consoles",
+        "description": "Netflix on PlayStation, Xbox, and Nintendo",
+        "features": [
+          "High-quality streaming",
+          "Easy navigation",
+          "Resume playback"
+        ]
+      }
+    ],
+    "viewingOptions": [
+      {
+        "title": "HD Streaming",
+        "description": "Watch in high definition on supported devices",
+        "icon": "🎬"
+      },
+      {
+        "title": "Ultra HD 4K",
+        "description": "Experience stunning 4K resolution on compatible TVs",
+        "icon": "🌟"
+      },
+      {
+        "title": "HDR",
+        "description": "Enhanced colors and contrast with HDR technology",
+        "icon": "✨"
+      },
+      {
+        "title": "Offline Downloads",
+        "description": "Download shows and movies to watch without internet",
+        "icon": "📥"
+      },
+      {
+        "title": "Multiple Profiles",
+        "description": "Create up to 5 profiles for personalized recommendations",
+        "icon": "👥"
+      },
+      {
+        "title": "Parental Controls",
+        "description": "Set restrictions and monitor viewing activity",
+        "icon": "🔒"
+      }
+    ],
+    "gettingStarted": {
+      "title": "Getting Started is Easy",
+      "subtitle": "Follow these simple steps to start watching Netflix on your favorite device.",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Sign Up",
+          "description": "Create your Netflix account or sign in to an existing one."
+        },
+        {
+          "number": "2",
+          "title": "Choose Your Plan",
+          "description": "Select the plan that best fits your viewing needs."
+        },
+        {
+          "number": "3",
+          "title": "Start Watching",
+          "description": "Download the app or visit netflix.com and enjoy unlimited entertainment."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "questions": [
+        {
+          "question": "Can I watch Netflix on multiple devices?",
+          "answer": "Yes! Depending on your plan, you can watch on 1-4 devices simultaneously. You can also download content for offline viewing on up to 100 devices."
+        },
+        {
+          "question": "Do I need a smart TV to watch Netflix?",
+          "answer": "No, you don't need a smart TV. You can watch on any device with the Netflix app or through a web browser, including gaming consoles, streaming devices, and computers."
+        },
+        {
+          "question": "What's the difference between HD and Ultra HD?",
+          "answer": "HD (High Definition) offers 1080p resolution, while Ultra HD (4K) provides 2160p resolution for sharper, more detailed picture quality. Ultra HD requires compatible devices and a Premium plan."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to Start Watching?",
+      "subtitle": "Join millions of Netflix members enjoying unlimited entertainment on their favorite devices.",
+      "button": "Get Started"
+    }
+  },
+  "onlyonnetflix": {
+    "hero": {
+      "title": "Only on Netflix",
+      "subtitle": "Discover exclusive Netflix Originals, from blockbuster movies to binge-worthy series that you can't find anywhere else."
+    },
+    "originals": [
+      {
+        "title": "Stranger Things",
+        "genre": "Sci-Fi & Horror",
+        "description": "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces, and one strange little girl.",
+        "image": "🎬"
+      },
+      {
+        "title": "The Crown",
+        "genre": "Historical Drama",
+        "description": "Follow the political rivalries and romance of Queen Elizabeth II's reign and the events that shaped the second half of the 20th century.",
+        "image": "👑"
+      },
+      {
+        "title": "Money Heist",
+        "genre": "Crime Thriller",
+        "description": "An unusual group of robbers attempt to carry out the most perfect robbery in Spanish history - stealing 2.4 billion euros from the Royal Mint of Spain.",
+        "image": "💰"
+      },
+      {
+        "title": "Black Mirror",
+        "genre": "Sci-Fi Anthology",
+        "description": "An anthology series exploring a twisted, high-tech world where humanity's greatest innovations and darkest instincts collide.",
+        "image": "🖥️"
+      },
+      {
+        "title": "The Witcher",
+        "genre": "Fantasy Action",
+        "description": "Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts.",
+        "image": "⚔️"
+      },
+      {
+        "title": "Bridgerton",
+        "genre": "Period Romance",
+        "description": "The story of Daphne Bridgerton, the eldest daughter of the powerful Bridgerton family, as she makes her debut onto Regency London's competitive marriage market.",
+        "image": "💃"
+      }
+    ],
+    "upcoming": [
+      {
+        "title": "One Piece",
+        "release": "2023",
+        "description": "Follow Monkey D. Luffy and his Straw Hat Pirates as they explore the Grand Line in search of the legendary treasure One Piece."
+      },
+      {
+        "title": "Avatar: The Last Airbender",
+        "release": "2024",
+        "description": "In a war-torn world of elemental magic, a young boy reawakens to undertake a dangerous quest to master all four elements and restore balance to the world."
+      },
+      {
+        "title": "The Three-Body Problem",
+        "release": "2024",
+        "description": "A secret military group recruits scientists to solve a bizarre puzzle only they can decipher, leading to a confrontation with an extraterrestrial civilization."
+      }
+    ],
+    "genres": [
+      {
+        "name": "Action & Adventure",
+        "count": "500+ titles",
+        "icon": "🏃"
+      },
+      {
+        "name": "Comedies",
+        "count": "400+ titles",
+        "icon": "😂"
+      },
+      {
+        "name": "Dramas",
+        "count": "600+ titles",
+        "icon": "🎭"
+      },
+      {
+        "name": "Documentaries",
+        "count": "300+ titles",
+        "icon": "📹"
+      },
+      {
+        "name": "Horror",
+        "count": "200+ titles",
+        "icon": "👻"
+      },
+      {
+        "name": "Romance",
+        "count": "350+ titles",
+        "icon": "💕"
+      },
+      {
+        "name": "Sci-Fi",
+        "count": "250+ titles",
+        "icon": "🚀"
+      },
+      {
+        "name": "Thrillers",
+        "count": "450+ titles",
+        "icon": "🔪"
+      }
+    ],
+    "whyOriginals": [
+      {
+        "title": "Exclusive Content",
+        "description": "Stories and series you can only find on Netflix, created specifically for our platform.",
+        "icon": "🎬"
+      },
+      {
+        "title": "Global Stories",
+        "description": "Diverse narratives from creators around the world, bringing unique perspectives to life.",
+        "icon": "🌍"
+      },
+      {
+        "title": "Binge-Worthy",
+        "description": "Multiple episodes released at once, perfect for marathon viewing sessions.",
+        "icon": "⚡"
+      },
+      {
+        "title": "Bold & Creative",
+        "description": "Innovative storytelling that pushes boundaries and challenges conventions.",
+        "icon": "🎭"
+      },
+      {
+        "title": "Award-Winning",
+        "description": "Critically acclaimed content that has won numerous awards and recognitions.",
+        "icon": "⭐"
+      },
+      {
+        "title": "Anytime, Anywhere",
+        "description": "Watch on any device, download for offline viewing, and pick up where you left off.",
+        "icon": "📱"
+      }
+    ],
+    "cta": {
+      "title": "Start Your Netflix Journey",
+      "subtitle": "Join millions of members enjoying exclusive Netflix Originals and unlimited entertainment.",
+      "button": "Join Netflix"
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "effectiveDate": "Effective Date: January 1, 2025",
+    "intro": "At Netflix, we are committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our streaming service. By using Netflix, you agree to the collection and use of information in accordance with this policy.",
+    "sections": [
+      {
+        "title": "Information We Collect",
+        "content": [
+          "Account Information: Email address, password, and profile information you provide when creating an account.",
+          "Usage Data: Information about how you use Netflix, including viewing history, search queries, and device information.",
+          "Payment Information: Billing details and payment method information (processed securely by third-party providers).",
+          "Device Information: IP address, browser type, operating system, and device identifiers."
+        ]
+      },
+      {
+        "title": "How We Use Your Information",
+        "content": [
+          "Provide and improve our streaming service",
+          "Personalize your viewing experience and recommendations",
+          "Process payments and manage your account",
+          "Communicate with you about your account and our services",
+          "Ensure security and prevent fraud",
+          "Comply with legal obligations"
+        ]
+      },
+      {
+        "title": "Information Sharing",
+        "content": [
+          "We do not sell your personal information to third parties.",
+          "We may share information with service providers who help us operate Netflix.",
+          "We may disclose information when required by law or to protect our rights.",
+          "Aggregated, anonymized data may be shared for research or business purposes."
+        ]
+      },
+      {
+        "title": "Data Security",
+        "content": [
+          "We use industry-standard encryption to protect your data.",
+          "We regularly update our security measures to protect against unauthorized access.",
+          "We limit access to personal information to authorized employees only.",
+          "We conduct regular security audits and assessments."
+        ]
+      },
+      {
+        "title": "Your Rights",
+        "content": [
+          "Access: You can request a copy of the personal information we have about you.",
+          "Correction: You can update your account information at any time.",
+          "Deletion: You can request deletion of your account and associated data.",
+          "Portability: You can request your data in a portable format.",
+          "Opt-out: You can opt out of certain data processing activities."
+        ]
+      },
+      {
+        "title": "Cookies and Tracking",
+        "content": [
+          "We use cookies to improve your browsing experience and provide personalized content.",
+          "You can control cookie settings through your browser preferences.",
+          "We may use analytics tools to understand how our service is used.",
+          "We do not respond to 'Do Not Track' signals at this time."
+        ]
+      },
+      {
+        "title": "Children's Privacy",
+        "content": [
+          "Netflix is not intended for children under 13.",
+          "We do not knowingly collect personal information from children under 13.",
+          "If we become aware of such collection, we will delete the information immediately.",
+          "Parental controls are available to help manage children's viewing."
+        ]
+      },
+      {
+        "title": "International Data Transfers",
+        "content": [
+          "Your information may be transferred to and processed in countries other than your own.",
+          "We ensure appropriate safeguards are in place for international transfers.",
+          "Our service is available in many countries worldwide.",
+          "Data protection laws may vary by jurisdiction."
+        ]
+      },
+      {
+        "title": "Changes to This Policy",
+        "content": [
+          "We may update this Privacy Policy from time to time.",
+          "We will notify you of material changes via email or service notifications.",
+          "Your continued use of Netflix after changes constitutes acceptance.",
+          "The effective date of changes will be posted at the top of this policy."
+        ]
+      }
+    ],
+    "contact": {
+      "title": "Contact Us",
+      "intro": "If you have any questions about this Privacy Policy or our privacy practices, please contact us:",
+      "privacyTeam": {
+        "title": "Privacy Team",
+        "email": "Email: privacy@netflix.com",
+        "phone": "Phone: 1-408-540-3700",
+        "address": "Address: 100 Winchester Circle, Los Gatos, CA 95032"
+      },
+      "dataProtectionOfficer": {
+        "title": "Data Protection Officer",
+        "description": "For GDPR and other data protection inquiries:",
+        "email": "dpo@netflix.com"
+      }
+    },
+    "footer": "This Privacy Policy is subject to our <a href=\"/termsofuse\" class=\"text-blue-400 underline\">Terms of Use</a> and <a href=\"/cookiepreferences\" class=\"text-blue-400 underline\">Cookie Preferences</a>."
+  },
+  "netflixhouse": {
+    "hero": {
+      "title": "Netflix Around the World",
+      "subtitle": "Discover how Netflix operates globally, supporting local creators and bringing diverse stories to audiences everywhere."
+    },
+    "globalStats": {
+      "title": "Netflix by the Numbers",
+      "stats": [
+        {
+          "number": "27",
+          "label": "Countries with Netflix offices",
+          "icon": "🌍"
+        },
+        {
+          "number": "12,800+",
+          "label": "Employees worldwide",
+          "icon": "👥"
+        },
+        {
+          "number": "40+",
+          "label": "Languages for content",
+          "icon": "🗣️"
+        },
+        {
+          "number": "190+",
+          "label": "Countries where Netflix is available",
+          "icon": "📺"
+        }
+      ]
+    },
+    "globalLocations": {
+      "title": "Our Global Locations",
+      "locations": [
+        {
+          "city": "Los Angeles",
+          "country": "USA",
+          "description": "Our headquarters and creative hub in Hollywood.",
+          "image": "🏙️",
+          "features": [
+            "Content Production",
+            "Technology Innovation",
+            "Global Operations"
+          ]
+        },
+        {
+          "city": "Amsterdam",
+          "country": "Netherlands",
+          "description": "European content creation and localization center.",
+          "image": "🌷",
+          "features": [
+            "European Originals",
+            "Content Localization",
+            "Marketing Hub"
+          ]
+        },
+        {
+          "city": "London",
+          "country": "UK",
+          "description": "British and international content production studio.",
+          "image": "🏰",
+          "features": [
+            "UK Productions",
+            "International Co-productions",
+            "Talent Development"
+          ]
+        },
+        {
+          "city": "Mexico City",
+          "country": "Mexico",
+          "description": "Latin American content creation powerhouse.",
+          "image": "🌮",
+          "features": [
+            "Latin American Originals",
+            "Spanish Content",
+            "Regional Operations"
+          ]
+        },
+        {
+          "city": "Seoul",
+          "country": "South Korea",
+          "description": "Asian content innovation and production center.",
+          "image": "🏯",
+          "features": [
+            "Korean Originals",
+            "Asian Content",
+            "Gaming Development"
+          ]
+        },
+        {
+          "city": "Tokyo",
+          "country": "Japan",
+          "description": "Anime and Japanese content production studio."
+        }
+      ]
+    }
   }
 }

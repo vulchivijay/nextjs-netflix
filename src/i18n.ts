@@ -1,15 +1,15 @@
 // i18n.ts
-import { getRequestConfig } from 'next-intl/server';
+import { getRequestConfig, GetRequestConfigParams, RequestConfig } from 'next-intl/server';
 
 export const locales = ['en', 'es', 'fr'] as const;
 export type Locale = (typeof locales)[number];
 
-export default getRequestConfig(async ({ locale }) => {
+export default getRequestConfig(async ({ locale }: GetRequestConfigParams): Promise<RequestConfig> => {
   const Localee = locale ? locale : 'en';
   try {
     if (!locales.includes(Localee as Locale)) {
-      console.warn(`Invalid locale received: ${Localee}`);
-      return null;
+      // Replace console.error with a proper logging mechanism
+      throw new Error(`Invalid locale received: ${Localee}`);
     }
     const messages = (await import(`./locales/${Localee}.json`)).default;
     return {
@@ -17,7 +17,7 @@ export default getRequestConfig(async ({ locale }) => {
       messages
     };
   } catch (error) {
-    console.error(`Error loading messages for locale "${Localee}":`, error);
-    return null;
+    // Replace console.error with a proper logging mechanism
+    throw new Error(`Error loading messages for locale "${Localee}". Please check the locale files.`);
   }
 });

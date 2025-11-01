@@ -11,12 +11,10 @@ export function middleware(request: NextRequest) {
     pathname.startsWith('/public') ||
     pathname.endsWith('.well-known')
   ) {
-    // console.log("ERROR");
     return NextResponse.next();
   }
   // Redirect `/` to default locale
   if (pathname === '/') {
-    console.log("pathname");
     return NextResponse.redirect(new URL('/en', request.url));
   }
   // Check if path starts with a locale

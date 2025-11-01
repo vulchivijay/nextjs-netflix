@@ -13,20 +13,22 @@ export default function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState('');
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
+    setError('');
     try {
       const res = await fetch('/api/auth/login', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ email, password }) });
       const data = await res.json();
       setLoading(false);
-      if (!res.ok) return alert(data.error || 'Login failed');
+      if (!res.ok) return setError(data.error || 'Login failed');
       // navigate to the authenticated home
       router.push('/home');
     } catch {
       setLoading(false);
-      alert('Network error');
+      setError('Network error');
     }
   };
 
@@ -44,6 +46,7 @@ export default function Login() {
             </div>
             <button type="submit" className="w-full bg-red-600 px-4 py-2 rounded" disabled={loading}>{loading ? 'Signing in...' : 'Sign in'}</button>
           </form>
+          {error && <div className="mt-4 text-red-500">{error}</div>}
           <div className="my-5 text-center">
             <Link href="/forgot" className="underline">Forgot Password?</Link>
           </div>

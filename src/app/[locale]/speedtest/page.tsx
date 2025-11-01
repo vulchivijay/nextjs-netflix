@@ -2,18 +2,21 @@
 
 
 import { useState } from 'react';
+import { logger } from '@/lib/logger';
 
 export default function Page() {
   const [downloadSpeed, setDownloadSpeed] = useState<number | null>(null);
   const [uploadSpeed, setUploadSpeed] = useState<number | null>(null);
   const [ping, setPing] = useState<number | null>(null);
   const [testing, setTesting] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
   const testSpeed = async () => {
     setTesting(true);
     setDownloadSpeed(null);
     setUploadSpeed(null);
     setPing(null);
+    setError(null);
 
     try {
       // Ping test
@@ -39,8 +42,8 @@ export default function Page() {
       setUploadSpeed(uploadResult.speed);
 
     } catch (error) {
-      console.error('Speed test failed:', error);
-      alert('Speed test failed. Please try again.');
+      logger.error('Speed test operation failed:', error);
+      setError('Speed test operation failed. Please try again later.');
     } finally {
       setTesting(false);
     }
@@ -48,7 +51,7 @@ export default function Page() {
 
   return (
     <>
-      <div className="min-h-screen bg-black text-white p-8">
+      <div className="relative z-10 bg-black text-white p-8">
         <h1 className="text-3xl font-bold mb-8">Internet Speed Test</h1>
         <button
           onClick={testSpeed}
@@ -57,6 +60,12 @@ export default function Page() {
         >
           {testing ? 'Testing...' : 'Start Speed Test'}
         </button>
+
+        {error && (
+          <div className="mb-4 p-4 bg-red-600 rounded-lg text-white text-center">
+            {error}
+          </div>
+        )}
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="bg-gray-800 p-6 rounded-lg text-center">
