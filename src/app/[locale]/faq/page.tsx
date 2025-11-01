@@ -1,5 +1,3 @@
-import Header from "../../components/header";
-import Footer from "../../components/footer";
 import { useTranslations } from "next-intl";
 
 export default function Page() {
@@ -19,11 +17,11 @@ export default function Page() {
             </p>
           </div>
 
-          {categories.map((category, categoryIndex) => (
+          {categories.map((category: any, categoryIndex: number) => (
             <section key={categoryIndex} className="mb-12">
               <h2 className="text-3xl font-semibold mb-6 text-red-600">{category.title}</h2>
               <div className="space-y-6">
-                {category.questions.map((item, questionIndex) => (
+                {category.questions.map((item: any, questionIndex: number) => (
                   <div key={questionIndex} className="bg-gray-800 p-6 rounded-lg">
                     <h3 className="text-xl font-medium mb-3 text-white">{item.q}</h3>
                     <p className="text-gray-300 leading-relaxed">{item.a}</p>

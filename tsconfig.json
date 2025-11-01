@@ -39,6 +39,10 @@
   ],
   "types": [
     "react",
-    "react-dom"
+    "react-dom",
+    "node",
+    "mongodb",
+    "jsonwebtoken",
+    "cookie"
   ]
 }

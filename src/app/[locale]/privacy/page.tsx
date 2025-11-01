@@ -1,6 +1,5 @@
 'use client';
 
-
 import { useTranslations } from 'next-intl';
 
 export default function Page() {
@@ -22,11 +21,11 @@ export default function Page() {
             </p>
           </div>
 
-          {sections.map((section, index) => (
+          {sections.map((section: any, index: number) => (
             <section key={index} className="mb-12">
               <h2 className="text-3xl font-semibold mb-6 text-red-600">{section.title}</h2>
               <div className="space-y-4">
-                {section.content.map((item, itemIndex) => (
+                {section.content.map((item: any, itemIndex: number) => (
                   <div key={itemIndex} className="bg-gray-800 p-6 rounded-lg">
                     <p className="text-gray-300 leading-relaxed">{item}</p>
                   </div>

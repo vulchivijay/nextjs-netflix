@@ -16,7 +16,8 @@ declare global {
 export function getClientPromise(): Promise<MongoClient> {
   const uri = process.env.MONGODB_URI;
   if (!uri) {
-    throw new Error('Please define the MONGODB_URI environment variable');
+    console.error('Environment variable MONGODB_URI is missing. Please check your .env file.');
+    throw new Error('Environment variable MONGODB_URI must be defined.');
   }
 
   if (!global._mongoClientPromise) {

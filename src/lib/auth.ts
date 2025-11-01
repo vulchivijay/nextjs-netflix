@@ -4,10 +4,15 @@ import { serialize } from 'cookie';
 const TOKEN_NAME = 'nextjs_netflix_token';
 const TOKEN_EXPIRES_IN = '7d';
 
+const secret = process.env.JWT_SECRET || '';
+if (!secret) {
+  console.error('Environment variable JWT_SECRET is missing. Please check your .env file.');
+  throw new Error('Environment variable JWT_SECRET must be defined.');
+}
+
 export function signToken(payload: object) {
-  const secret = process.env.JWT_SECRET;
-  if (!secret) throw new Error('JWT_SECRET not set');
-  return jwt.sign(payload, secret, { expiresIn: TOKEN_EXPIRES_IN });
+  // Ensure secret is passed correctly to jwt.sign
+  return jwt.sign(payload, secret as string, { expiresIn: TOKEN_EXPIRES_IN });
 }
 
 export function createSerializedSessionToken(token: string) {
@@ -23,9 +28,8 @@ export function createSerializedSessionToken(token: string) {
 }
 
 export function parseToken(token: string): unknown {
-  const secret = process.env.JWT_SECRET;
-  if (!secret) throw new Error('JWT_SECRET not set');
-  return jwt.verify(token, secret) as unknown;
+  // Ensure secret is passed correctly to jwt.verify
+  return jwt.verify(token, secret as string) as unknown;
 }
 
 export function clearSessionCookie() {

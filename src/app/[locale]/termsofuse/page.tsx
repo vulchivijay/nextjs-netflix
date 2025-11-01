@@ -10,7 +10,7 @@ export default function Page() {
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl font-bold mb-8">{t('title')}</h1>
 
-          {sections.map((section, index) => (
+          {sections.map((section: any, index: number) => (
             <section key={index} className="mb-8">
               <h2 className="text-2xl font-semibold mb-4">{section.title}</h2>
               <p className="text-gray-300 mb-4">
@@ -18,7 +18,7 @@ export default function Page() {
               </p>
               {section.list && (
                 <ul className="list-disc list-inside text-gray-300 mb-4 ml-4">
-                  {section.list.map((item, itemIndex) => (
+                  {section.list.map((item: any, itemIndex: number) => (
                     <li key={itemIndex}>{item}</li>
                   ))}
                 </ul>

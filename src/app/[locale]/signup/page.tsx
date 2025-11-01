@@ -14,22 +14,23 @@ export default function Signup() {
   const [password, setPassword] = useState('');
   const [confirm, setConfirm] = useState('');
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState('');
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (password !== confirm) return alert('Passwords do not match');
+    if (password !== confirm) return setError('Passwords do not match');
     setLoading(true);
     // Call signup API with JSON body and explicit Content-Type header
     try {
       const res = await fetch('/../api/auth/signup', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ email, password }) });
       const data = await res.json();
       setLoading(false);
-      if (!res.ok) return alert(data.error || 'Signup failed');
+      if (!res.ok) return setError(data.error || 'Signup failed');
       // Navigate to the authenticated home page after signup
       router.push('/home');
     } catch {
       setLoading(false);
-      alert('Network error');
+      setError('Network error');
     }
   };
 
@@ -50,6 +51,7 @@ export default function Signup() {
             </div>
             <button type="submit" className="w-full bg-red-600 px-4 py-2 rounded" disabled={loading}>{loading ? 'Creating...' : 'Create account'}</button>
           </form>
+          {error && <div className="mt-4 text-red-400">{error}</div>}
           <div className="my-5">
             <input type="checkbox" /> Remember me
           </div>
