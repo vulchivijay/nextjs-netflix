@@ -6,8 +6,15 @@ const withNextIntl = createNextIntlPlugin('./src/i18n.ts');
 const nextConfig: NextConfig = {
   /* config options here */
   images: {
-    domains: ['localhost'],
-  },
+    remotePatterns: [
+      {
+        protocol: 'http',
+        hostname: '',
+        port: '3000',
+        pathname: '/**'
+      }
+    ]
+  }
 };
 
 export default withNextIntl(nextConfig);
