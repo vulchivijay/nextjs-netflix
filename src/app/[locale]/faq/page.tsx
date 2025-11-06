@@ -12,9 +12,7 @@ export default function Page() {
           <h1 className="text-4xl font-bold mb-8 text-center">{t('title')}</h1>
 
           <div className="mb-8">
-            <p className="text-gray-300 text-center text-lg">
-              {t('subtitle')}
-            </p>
+            <p className="text-gray-300 text-center text-lg">{t('subtitle')}</p>
           </div>
 
           {categories.map((category: any, categoryIndex: number) => (
